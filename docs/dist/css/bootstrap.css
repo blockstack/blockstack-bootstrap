@@ -6521,4 +6521,67 @@ a.text-danger:focus, a.text-danger:hover {
     display: none !important;
   }
 }
+
+.bg-inverse {
+  color: #eceeef;
+  background-color: #373a3c;
+}
+
+.bg-faded {
+  background-color: #f7f7f9;
+}
+
+.bg-primary {
+  color: #fff !important;
+  background-color: #53206f !important;
+}
+
+a.bg-primary:focus, a.bg-primary:hover {
+  background-color: #351547 !important;
+}
+
+.bg-success {
+  color: #fff !important;
+  background-color: #1db954 !important;
+}
+
+a.bg-success:focus, a.bg-success:hover {
+  background-color: #168d40 !important;
+}
+
+.bg-info {
+  color: #fff !important;
+  background-color: #4a90e2 !important;
+}
+
+a.bg-info:focus, a.bg-info:hover {
+  background-color: #2275d7 !important;
+}
+
+.bg-warning {
+  color: #fff !important;
+  background-color: #ff9900 !important;
+}
+
+a.bg-warning:focus, a.bg-warning:hover {
+  background-color: #cc7a00 !important;
+}
+
+.bg-danger {
+  color: #fff !important;
+  background-color: #d0021b !important;
+}
+
+a.bg-danger:focus, a.bg-danger:hover {
+  background-color: #9d0214 !important;
+}
+
+.bg-primary-gradient {
+  color: #fff !important;
+  background-color: #fafafa !important;
+}
+
+a.bg-primary-gradient:focus, a.bg-primary-gradient:hover {
+  background-color: #e1e1e1 !important;
+}
 /*# sourceMappingURL=bootstrap.css.map */
