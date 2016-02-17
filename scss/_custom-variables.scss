@@ -298,9 +298,9 @@ $display2-weight: 300 !default;
 $display3-weight: 300 !default;
 $display4-weight: 300 !default;
 
-$headings-margin-bottom: $spacer !default;             // Custom value string - ($spacer / 2) !default
+$headings-margin-bottom: ($spacer * 2) !default;       // Custom value string - ($spacer / 2) !default
 $headings-font-family:   inherit !default;
-$headings-font-weight:   400 !default;                 // Custom value
+$headings-font-weight:   500 !default;                 // Custom value
 $headings-line-height:   1.35 !default;                // Custom value
 $headings-color:         inherit !default;
 
