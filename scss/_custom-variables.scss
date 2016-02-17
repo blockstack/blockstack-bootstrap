@@ -35,6 +35,26 @@
 
 // Custom colors
 
+$midnight-50:               #434345 !default;
+$midnight-100:              #3a3a3d !default;
+$midnight-200:              #323234 !default;
+$midnight-300:              #2a2a2b !default;
+$midnight-400:              #212123 !default;
+$midnight-500:              #19191a !default;
+$midnight-600:              #111111 !default;
+$midnight-700:              #080809 !default;
+
+$deep-slate-50:             #494f56 !default;
+$deep-slate-100:            #41474d !default;
+$deep-slate-200:            #393e44 !default;
+$deep-slate-300:            #32363a !default;
+$deep-slate-400:            #2a2d31 !default;
+$deep-slate-500:            #222528 !default;
+$deep-slate-600:            #1a1d1f !default;
+$deep-slate-700:            #121416 !default;
+$deep-slate-800:            #0b0c0c !default;
+$deep-slate-900:            #030303 !default;
+
 $dark-violet-50:            #8e37be !default;
 $dark-violet-100:           #8433b1 !default;
 $dark-violet-200:           #7a2fa4 !default;
@@ -45,6 +65,39 @@ $dark-violet-600:           #491c62 !default;
 $dark-violet-700:           #3f1855 !default;
 $dark-violet-800:           #351547 !default;
 $dark-violet-900:           #2c113a !default;
+
+$violet-50:                 #b33bde !default;
+$violet-100:                #ad2cdc !default;
+$violet-200:                #a523d4 !default;
+$violet-300:                #9a21c5 !default;
+$violet-400:                #8e1eb7 !default;
+$violet-500:                #831ca8 !default;
+$violet-600:                #781a99 !default;
+$violet-700:                #6c178b !default;
+$violet-800:                #61157c !default;
+$violet-900:                #56126e !default;
+
+$plum-50:                   #cb42e1 !default;
+$plum-100:                  #c733df !default;
+$plum-200:                  #c324dd !default;
+$plum-300:                  #b721cf !default;
+$plum-400:                  #aa1ec1 !default;
+$plum-500:                  #9d1cb2 !default;
+$plum-600:                  #901aa3 !default;
+$plum-700:                  #831795 !default;
+$plum-800:                  #761586 !default;
+$plum-900:                  #691377 !default;
+
+$light-violet-50:           #cd8cd8 !default;
+$light-violet-100:          #c780d3 !default;
+$light-violet-200:          #c273cf !default;
+$light-violet-300:          #bc66cb !default;
+$light-violet-400:          #b75ac6 !default;
+$light-violet-500:          #b14dc2 !default;
+$light-violet-600:          #ab41bd !default;
+$light-violet-700:          #a03cb1 !default;
+$light-violet-800:          #9438a4 !default;
+$light-violet-900:          #893497 !default;
 
 $gray-50:                   #fafafa !default;
 $gray-60:                   #f0f0f0 !default;
@@ -78,6 +131,19 @@ $brand-success:             #1db954 !default;
 $brand-info:                #4a90e2 !default;
 $brand-warning:             #ff9900 !default;
 $brand-danger:              #d0021b !default;
+
+// Gradient colors
+//
+
+$grad-first-color:               $black !default;
+$grad-second-color:              #040007 !default;
+$grad-third-color:               #180d1f !default;
+$grad-fourth-color:              #24132f !default;
+$grad-fifth-color:               #361648 !default;
+$grad-sixth-color:               #3c174f !default;
+$grad-seventh-color:             #48195d !default;
+$grad-eighth-color:              $brand-primary !default;
+$grad-ninth-color:               $brand-primary !default;
 
 
 // Options
