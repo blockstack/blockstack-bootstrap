@@ -6576,12 +6576,12 @@ a.bg-danger:focus, a.bg-danger:hover {
   background-color: #9d0214 !important;
 }
 
-.bg-primary-gradient {
+.bg-primary-light {
   color: #fff !important;
   background-color: #fafafa !important;
 }
 
-a.bg-primary-gradient:focus, a.bg-primary-gradient:hover {
+a.bg-primary-light:focus, a.bg-primary-light:hover {
   background-color: #e1e1e1 !important;
 }
 /*# sourceMappingURL=bootstrap.css.map */
