@@ -2,8 +2,8 @@
 //
 
 // Gradients
-@mixin gradient-nine-color-directional($first: $grad-$first-color, $second: $grad-second-color, $third: $grad-third-color, $fourth: $grad-fourth-color, $fifth: $grad-fifth-color, $sixth: $grad-sixth-color, $seventh: $grad-seventh-color, $eighth: $grad-eighth-color, $ninth: $grad-ninth-color, $angle: 135deg) {
-  background-image: linear-gradient($angle, $first 0%, $second 7%, $third 40%, $fourth 53%, $fifth 67%, $sixth 75%, $seventh 86%, $eighth 98%, $ninth 100%);
+@mixin gradient-nine-color-directional($grad-first-color: #000, $grad-second-color: #040007, $grad-third-color: #180d1f, $grad-fourth-color: #24132f, $grad-fifth-color: #361648, $grad-sixth-color: #3c174f, $grad-seventh-color: #48195d, $grad-eighth-color: #53206f, $grad-ninth-color: #53206f, $angle: 135deg) {
+  background-image: linear-gradient($angle, $grad-first-color 0%, $grad-second-color 7%, $grad-third-color 40%, $grad-fourth-color 53%, $grad-fifth-color 67%, $grad-sixth-color 75%, $grad-seventh-color 86%, $grad-eighth-color 98%, $grad-ninth-color 100%);
 	background-repeat: no-repeat;
- 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#{ie-hex-str($first)}', endColorstr='#{ie-hex-str($ninth)}', GradientType=1); // IE9 gets no color-stop at all for proper fallback
+ 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#{ie-hex-str($grad-first-color)}', endColorstr='#{ie-hex-str($grad-first-color)}', GradientType=1); // IE9 gets no color-stop at all for proper fallback
 }
