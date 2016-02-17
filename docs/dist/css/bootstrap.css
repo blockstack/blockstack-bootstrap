@@ -6585,7 +6585,7 @@ a.bg-primary-light:focus, a.bg-primary-light:hover {
   background-color: #e1e1e1 !important;
 }
 
-.wacky-bg {
+.bg-primary-gradient {
   background-image: -webkit-linear-gradient(315deg, #000 0%, #040007 7%, #180d1f 40%, #24132f 53%, #361648 67%, #3c174f 75%, #48195d 86%, #53206f 98%, #53206f 100%);
   background-image: -o-linear-gradient(315deg, #000 0%, #040007 7%, #180d1f 40%, #24132f 53%, #361648 67%, #3c174f 75%, #48195d 86%, #53206f 98%, #53206f 100%);
   background-image: linear-gradient(135deg, #000 0%, #040007 7%, #180d1f 40%, #24132f 53%, #361648 67%, #3c174f 75%, #48195d 86%, #53206f 98%, #53206f 100%);
