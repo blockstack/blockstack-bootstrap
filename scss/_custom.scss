@@ -5,3 +5,6 @@
 
 
 
+.wacky-bg {
+  @include gradient-nine-color-directional();
+}
