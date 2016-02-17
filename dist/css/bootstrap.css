@@ -6054,6 +6054,36 @@ a.bg-danger:focus, a.bg-danger:hover {
   margin-bottom: 4rem !important;
 }
 
+.m-a-5 {
+  margin: 5rem 5rem !important;
+}
+
+.m-t-5 {
+  margin-top: 5rem !important;
+}
+
+.m-r-5 {
+  margin-right: 5rem !important;
+}
+
+.m-b-5 {
+  margin-bottom: 5rem !important;
+}
+
+.m-l-5 {
+  margin-left: 5rem !important;
+}
+
+.m-x-5 {
+  margin-right: 5rem !important;
+  margin-left: 5rem !important;
+}
+
+.m-y-5 {
+  margin-top: 5rem !important;
+  margin-bottom: 5rem !important;
+}
+
 .p-a-0 {
   padding: 0 0 !important;
 }
@@ -6202,6 +6232,36 @@ a.bg-danger:focus, a.bg-danger:hover {
 .p-y-4 {
   padding-top: 4rem !important;
   padding-bottom: 4rem !important;
+}
+
+.p-a-5 {
+  padding: 5rem 5rem !important;
+}
+
+.p-t-5 {
+  padding-top: 5rem !important;
+}
+
+.p-r-5 {
+  padding-right: 5rem !important;
+}
+
+.p-b-5 {
+  padding-bottom: 5rem !important;
+}
+
+.p-l-5 {
+  padding-left: 5rem !important;
+}
+
+.p-x-5 {
+  padding-right: 5rem !important;
+  padding-left: 5rem !important;
+}
+
+.p-y-5 {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
 }
 
 .pos-f-t {
