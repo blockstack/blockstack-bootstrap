@@ -146,7 +146,8 @@ fieldset[disabled] a.btn {
 
 .btn-lg {
   // line-height: ensure even-numbered height of button next to large input
-  @include button-size($btn-padding-y-lg, $btn-padding-x-lg, $font-size-lg, $btn-border-radius-lg);
+  // Custom - $font-size was $font-size-lg
+  @include button-size($btn-padding-y-lg, $btn-padding-x-lg, $font-size-base, $btn-border-radius-lg);
 }
 .btn-sm {
   // line-height: ensure proper height of button next to small input
