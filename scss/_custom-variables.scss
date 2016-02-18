@@ -396,9 +396,9 @@ $btn-danger-color:               #fff !default;
 $btn-danger-bg:                  $brand-danger !default;
 $btn-danger-border:              $btn-danger-bg !default;
 
-$btn-special-color:              $dark-violet-700 !default;  // Custom button
-$btn-special-bg:                 #fff !default;              // Custom button
-$btn-special-border:             $dark-violet-700 !default;  // Custom button
+$btn-special-color:              #fff !default;              // Custom button
+$btn-special-bg:                 $dark-violet-700 !default;  // Custom button
+$btn-special-border:             $btn-special-bg !default;   // Custom button
 
 
 $btn-link-disabled-color:        $gray-light !default;
