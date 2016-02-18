@@ -44,7 +44,7 @@
 // // Skins
 @import "mixins/background-variant";
 @import "mixins/border-radius";
-@import "mixins/gradients";
+@import "mixins/custom-gradients"; // Custom - @import "mixins/gradients";
 
 // // Layout
 @import "mixins/clearfix";
@@ -52,6 +52,3 @@
 @import "mixins/grid-framework";
 @import "mixins/grid";
 @import "mixins/pulls";
-
-// // Custom mixins
-@import "mixins/custom-mixins";

@@ -1,9 +1,0 @@
-// Custom mixins
-//
-
-// Gradients
-@mixin gradient-nine-color-directional($grad-first-color: #000, $grad-second-color: #040007, $grad-third-color: #180d1f, $grad-fourth-color: #24132f, $grad-fifth-color: #361648, $grad-sixth-color: #3c174f, $grad-seventh-color: #48195d, $grad-eighth-color: #53206f, $grad-ninth-color: #53206f, $angle: 135deg) {
-  background-image: linear-gradient($angle, $grad-first-color 0%, $grad-second-color 7%, $grad-third-color 40%, $grad-fourth-color 53%, $grad-fifth-color 67%, $grad-sixth-color 75%, $grad-seventh-color 86%, $grad-eighth-color 98%, $grad-ninth-color 100%);
-	background-repeat: no-repeat;
- 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#{ie-hex-str($grad-first-color)}', endColorstr='#{ie-hex-str($grad-first-color)}', GradientType=1); // IE9 gets no color-stop at all for proper fallback
-}

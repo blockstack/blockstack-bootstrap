@@ -5776,6 +5776,14 @@ button.close {
   background-color: #f7f7f9;
 }
 
+.bg-primary-gradient {
+  background-image: -webkit-linear-gradient(315deg, #000 0%, #040007 7%, #180d1f 40%, #24132f 53%, #361648 67%, #3c174f 75%, #48195d 86%, #53206f 98%, #53206f 100%);
+  background-image: -o-linear-gradient(315deg, #000 0%, #040007 7%, #180d1f 40%, #24132f 53%, #361648 67%, #3c174f 75%, #48195d 86%, #53206f 98%, #53206f 100%);
+  background-image: linear-gradient(135deg, #000 0%, #040007 7%, #180d1f 40%, #24132f 53%, #361648 67%, #3c174f 75%, #48195d 86%, #53206f 98%, #53206f 100%);
+  background-repeat: no-repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF000000', endColorstr='#FF000000', GradientType=1);
+}
+
 .bg-primary {
   color: #fff !important;
   background-color: #53206f !important;
@@ -6528,76 +6536,5 @@ a.text-danger:focus, a.text-danger:hover {
   .hidden-print {
     display: none !important;
   }
-}
-
-.bg-inverse {
-  color: #eceeef;
-  background-color: #373a3c;
-}
-
-.bg-faded {
-  background-color: #f7f7f9;
-}
-
-.bg-primary {
-  color: #fff !important;
-  background-color: #53206f !important;
-}
-
-a.bg-primary:focus, a.bg-primary:hover {
-  background-color: #351547 !important;
-}
-
-.bg-success {
-  color: #fff !important;
-  background-color: #1db954 !important;
-}
-
-a.bg-success:focus, a.bg-success:hover {
-  background-color: #168d40 !important;
-}
-
-.bg-info {
-  color: #fff !important;
-  background-color: #4a90e2 !important;
-}
-
-a.bg-info:focus, a.bg-info:hover {
-  background-color: #2275d7 !important;
-}
-
-.bg-warning {
-  color: #fff !important;
-  background-color: #ff9900 !important;
-}
-
-a.bg-warning:focus, a.bg-warning:hover {
-  background-color: #cc7a00 !important;
-}
-
-.bg-danger {
-  color: #fff !important;
-  background-color: #d0021b !important;
-}
-
-a.bg-danger:focus, a.bg-danger:hover {
-  background-color: #9d0214 !important;
-}
-
-.bg-primary-light {
-  color: #fff !important;
-  background-color: #fafafa !important;
-}
-
-a.bg-primary-light:focus, a.bg-primary-light:hover {
-  background-color: #e1e1e1 !important;
-}
-
-.bg-primary-gradient {
-  background-image: -webkit-linear-gradient(315deg, #000 0%, #040007 7%, #180d1f 40%, #24132f 53%, #361648 67%, #3c174f 75%, #48195d 86%, #53206f 98%, #53206f 100%);
-  background-image: -o-linear-gradient(315deg, #000 0%, #040007 7%, #180d1f 40%, #24132f 53%, #361648 67%, #3c174f 75%, #48195d 86%, #53206f 98%, #53206f 100%);
-  background-image: linear-gradient(135deg, #000 0%, #040007 7%, #180d1f 40%, #24132f 53%, #361648 67%, #3c174f 75%, #48195d 86%, #53206f 98%, #53206f 100%);
-  background-repeat: no-repeat;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF000000', endColorstr='#FF000000', GradientType=1);
 }
 /*# sourceMappingURL=bootstrap.css.map */

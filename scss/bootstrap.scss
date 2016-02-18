@@ -5,11 +5,11 @@
  */
 
 // Core variables
-@import "custom-variables";
+@import "custom-variables";   // Custom - @import "buttons";
 @import "variables";
 
 // Mixins
-@import "mixins";
+@import "mixins";             // Custom
 
 // Reset and dependencies
 @import "normalize";
@@ -23,7 +23,7 @@
 @import "grid";
 @import "tables";
 @import "forms";
-@import "buttons";
+@import "custom-buttons";    // Custom - @import "buttons";
 
 // Components
 @import "animation";
@@ -52,7 +52,7 @@
 @import "carousel";
 
 // Utility classes
-@import "utilities";
+@import "utilities";        // Custom
 
 // Custom components
-@import "custom";
+@import "custom";           // Custom
