@@ -13,6 +13,11 @@
   background-color: $gray-lightest;
 }
 
+// Custom block
+.bg-primary-gradient {
+  @include gradient-nine-color-directional();
+}
+
 @include bg-variant('.bg-primary', $brand-primary);
 
 @include bg-variant('.bg-success', $brand-success);
@@ -22,5 +27,3 @@
 @include bg-variant('.bg-warning', $brand-warning);
 
 @include bg-variant('.bg-danger', $brand-danger);
-
-@include bg-variant('.bg-primary-light', $gray-50);

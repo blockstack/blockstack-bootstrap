@@ -1,10 +1,5 @@
+
 // Bootstrap overrides
 //
 // Copy variables from `_variables.scss` to this file to override default values
 // without modifying source files.
-
-
-
-.bg-primary-gradient {
-  @include gradient-nine-color-directional();
-}
