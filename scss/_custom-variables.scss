@@ -368,7 +368,7 @@ $table-border-color:            $gray-lighter !default;
 $btn-padding-x:                  2.375rem !default;   // Custom value - was 1rem
 $btn-padding-y:                  .6875rem !default;   // Custom value - was .5rem
 $btn-line-height:                1.25 !default;
-$btn-font-weight:                normal !default;
+$btn-font-weight:                500 !default;        // Custom value - was normal
 $btn-box-shadow:                 inset 0 1px 0 rgba(255,255,255,.15), 0 1px 1px rgba(0,0,0,.075) !default;
 $btn-active-box-shadow:          inset 0 3px 5px rgba(0,0,0,.125) !default;
 
@@ -376,9 +376,9 @@ $btn-primary-color:              #fff !default;
 $btn-primary-bg:                 $brand-primary !default;
 $btn-primary-border:             $btn-primary-bg !default;
 
-$btn-secondary-color:            $gray-dark !default;
+$btn-secondary-color:            $brand-primary !default;  // Custom value - was $gray-dark
 $btn-secondary-bg:               #fff !default;
-$btn-secondary-border:           #ccc !default;
+$btn-secondary-border:           $gray-60 !default;        // Custom value - was #ccc
 
 $btn-info-color:                 #fff !default;
 $btn-info-bg:                    $brand-info !default;
@@ -395,6 +395,11 @@ $btn-warning-border:             $btn-warning-bg !default;
 $btn-danger-color:               #fff !default;
 $btn-danger-bg:                  $brand-danger !default;
 $btn-danger-border:              $btn-danger-bg !default;
+
+$btn-special-color:              $dark-violet-700 !default;  // Custom button
+$btn-special-bg:                 #fff !default;              // Custom button
+$btn-special-border:             $dark-violet-700 !default;  // Custom button
+
 
 $btn-link-disabled-color:        $gray-light !default;
 
