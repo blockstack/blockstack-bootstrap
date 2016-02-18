@@ -3762,6 +3762,9 @@ input[type="button"].btn-block {
 
 .nav-link:focus, .nav-link:hover {
   text-decoration: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .nav-link.disabled {
