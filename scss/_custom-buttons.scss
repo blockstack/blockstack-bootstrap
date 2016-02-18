@@ -79,6 +79,9 @@ fieldset[disabled] a.btn {
 .btn-danger {
   @include button-variant($btn-danger-color, $btn-danger-bg, $btn-danger-border);
 }
+.btn-special {
+  @include button-variant($btn-special-color, $btn-special-bg, $btn-special-border);
+}
 
 // Remove all backgrounds
 .btn-outline-primary {
@@ -98,6 +101,9 @@ fieldset[disabled] a.btn {
 }
 .btn-outline-danger {
   @include button-outline-variant($btn-danger-bg);
+}
+.btn-outline-special {
+  @include button-outline-variant($btn-special-bg);
 }
 
 
