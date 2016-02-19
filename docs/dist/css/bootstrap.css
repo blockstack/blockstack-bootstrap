@@ -370,12 +370,12 @@ blockquote {
 }
 
 a {
-  color: #831ca8;
+  color: #c733df;
   text-decoration: none;
 }
 
 a:focus, a:hover {
-  color: #501166;
+  color: #971bab;
   text-decoration: underline;
 }
 
@@ -3012,7 +3012,7 @@ fieldset[disabled] a.btn {
 
 .btn-link {
   font-weight: normal;
-  color: #831ca8;
+  color: #c733df;
   border-radius: 0;
 }
 
@@ -3029,7 +3029,7 @@ fieldset[disabled] a.btn {
 }
 
 .btn-link:focus, .btn-link:hover {
-  color: #501166;
+  color: #971bab;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -4455,14 +4455,14 @@ input[type="button"].btn-block {
   float: left;
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
-  color: #831ca8;
+  color: #c733df;
   text-decoration: none;
   background-color: #fff;
   border: 1px solid #ddd;
 }
 
 .page-link:focus, .page-link:hover {
-  color: #501166;
+  color: #971bab;
   background-color: #eceeef;
   border-color: #ddd;
 }
