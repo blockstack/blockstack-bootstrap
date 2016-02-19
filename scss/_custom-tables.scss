@@ -9,7 +9,7 @@
 
   th,
   td {
-    padding: $table-cell-padding;
+    padding: ($table-cell-padding * 1.5);     // Custom value - was $table-cell-padding
     vertical-align: top;
     border-top: $table-border-width solid $table-border-color;
   }
@@ -133,16 +133,19 @@
 
 .table-inverse {
   color: $gray-lighter;
-  background-color: $deep-slate-800;     // Custom - was $gray-dark;
+  background-color: $deep-slate-600;     // Custom value - was $gray-dark
+  font-size: .9375rem;                   // Custom
 
   &.table-bordered {
     border: 0;
+    border-radius: $btn-border-radius;  //Custom
+    border-color: $deep-slate-300;      //Custom
   }
 
   th,
   td,
   thead th {
-    border-color: $gray;
+    border-color: $deep-slate-300;      //Custom value - was $gray
   }
 }
 
