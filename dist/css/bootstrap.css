@@ -1888,7 +1888,7 @@ pre code {
 
 .table th,
 .table td {
-  padding: 0.75rem;
+  padding: 1.125rem;
   vertical-align: top;
   border-top: 1px solid #eceeef;
 }
@@ -2028,16 +2028,18 @@ pre code {
 .table-inverse {
   color: #eceeef;
   background-color: #0b0c0c;
+  font-size: .9375rem;
 }
 
 .table-inverse.table-bordered {
   border: 0;
+  border-radius: 0.25rem;
 }
 
 .table-inverse th,
 .table-inverse td,
 .table-inverse thead th {
-  border-color: #55595c;
+  border-color: #222528;
 }
 
 .table-reflow thead {
