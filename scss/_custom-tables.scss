@@ -133,18 +133,19 @@
 
 .table-inverse {
   color: $gray-lighter;
-  background-color: $deep-slate-800;     // Custom value - was $gray-dark
+  background-color: $deep-slate-600;     // Custom value - was $gray-dark
   font-size: .9375rem;                   // Custom
 
   &.table-bordered {
     border: 0;
-    border-radius: $btn-border-radius;
+    border-radius: $btn-border-radius;  //Custom
+    border-color: $deep-slate-300;      //Custom
   }
 
   th,
   td,
   thead th {
-    border-color: $deep-slate-500;      //Custom value - was $gray
+    border-color: $deep-slate-300;      //Custom value - was $gray
   }
 }
 

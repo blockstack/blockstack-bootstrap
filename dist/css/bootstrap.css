@@ -2027,19 +2027,20 @@ pre code {
 
 .table-inverse {
   color: #eceeef;
-  background-color: #0b0c0c;
+  background-color: #1a1d1f;
   font-size: .9375rem;
 }
 
 .table-inverse.table-bordered {
   border: 0;
   border-radius: 0.25rem;
+  border-color: #32363a;
 }
 
 .table-inverse th,
 .table-inverse td,
 .table-inverse thead th {
-  border-color: #222528;
+  border-color: #32363a;
 }
 
 .table-reflow thead {
