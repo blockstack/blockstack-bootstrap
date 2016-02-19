@@ -21,7 +21,7 @@
 @import "images";
 @import "code";
 @import "grid";
-@import "tables";
+@import "custom-tables";     //Custom - @import "tables";
 @import "forms";
 @import "custom-buttons";    // Custom - @import "buttons";
 
@@ -31,7 +31,7 @@
 @import "button-group";
 @import "input-group";
 @import "custom-forms";
-@import "custom-nav";    // Custom - @import "nav";
+@import "custom-nav";        // Custom - @import "nav";
 @import "navbar";
 @import "card";
 @import "breadcrumb";
