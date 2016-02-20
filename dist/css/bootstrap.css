@@ -4107,6 +4107,7 @@ input[type="button"].btn-block {
 
 .card-block {
   padding: 1.25rem;
+  width: 33%;
 }
 
 .card-block::after {
