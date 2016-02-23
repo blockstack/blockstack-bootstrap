@@ -484,7 +484,7 @@ output {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  margin-bottom: 2rem;
+  margin-bottom: 1.875rem;
   font-family: inherit;
   font-weight: 500;
   line-height: 1.35;
@@ -541,8 +541,8 @@ h6, .h6 {
 }
 
 hr {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 0.9375rem;
+  margin-bottom: 0.9375rem;
   border: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -583,8 +583,8 @@ mark,
 }
 
 .blockquote {
-  padding: 0.5rem 1rem;
-  margin-bottom: 1rem;
+  padding: 0.46875rem 0.9375rem;
+  margin-bottom: 0.9375rem;
   font-size: 1.25rem;
   border-left: 0.25rem solid #eceeef;
 }
@@ -600,7 +600,7 @@ mark,
 }
 
 .blockquote-reverse {
-  padding-right: 1rem;
+  padding-right: 0.9375rem;
   padding-left: 0;
   text-align: right;
   border-right: 0.25rem solid #eceeef;
@@ -652,7 +652,7 @@ dl.row > dd + dt {
 }
 
 .figure-img {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.46875rem;
   line-height: 1;
 }
 
@@ -1883,7 +1883,7 @@ pre code {
 .table {
   width: 100%;
   max-width: 100%;
-  margin-bottom: 1rem;
+  margin-bottom: 0.9375rem;
 }
 
 .table th,
@@ -2229,14 +2229,14 @@ input[type="month"].form-control {
 }
 
 .form-group {
-  margin-bottom: 1rem;
+  margin-bottom: 0.9375rem;
 }
 
 .radio,
 .checkbox {
   position: relative;
   display: block;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.703125rem;
 }
 
 .radio label,
@@ -3152,7 +3152,7 @@ input[type="button"].btn-block {
 
 .dropdown-divider {
   height: 1px;
-  margin: 0.5rem 0;
+  margin: 0.46875rem 0;
   overflow: hidden;
   background-color: #e5e5e5;
 }
@@ -3888,7 +3888,7 @@ input[type="button"].btn-block {
 
 .navbar {
   position: relative;
-  padding: 0.5rem 1rem;
+  padding: 0.46875rem 0.9375rem;
 }
 
 .navbar::after {
@@ -3971,8 +3971,8 @@ input[type="button"].btn-block {
   width: 1px;
   padding-top: .425rem;
   padding-bottom: .425rem;
-  margin-right: 1rem;
-  margin-left: 1rem;
+  margin-right: 0.9375rem;
+  margin-left: 0.9375rem;
   overflow: hidden;
 }
 
@@ -4377,7 +4377,7 @@ input[type="button"].btn-block {
 
 .breadcrumb {
   padding: 0.75rem 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.9375rem;
   list-style: none;
   background-color: #eceeef;
   border-radius: 0.25rem;
@@ -4416,8 +4416,8 @@ input[type="button"].btn-block {
 .pagination {
   display: inline-block;
   padding-left: 0;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 0.9375rem;
+  margin-bottom: 0.9375rem;
   border-radius: 0.25rem;
 }
 
@@ -4606,7 +4606,7 @@ a.label:focus, a.label:hover {
 
 .alert {
   padding: 15px;
-  margin-bottom: 1rem;
+  margin-bottom: 0.9375rem;
   border: 1px solid transparent;
   border-radius: 0.25rem;
 }
@@ -4688,7 +4688,7 @@ a.label:focus, a.label:hover {
 
 @-webkit-keyframes progress-bar-stripes {
   from {
-    background-position: 1rem 0;
+    background-position: 0.9375rem 0;
   }
   to {
     background-position: 0 0;
@@ -4697,7 +4697,7 @@ a.label:focus, a.label:hover {
 
 @-o-keyframes progress-bar-stripes {
   from {
-    background-position: 1rem 0;
+    background-position: 0.9375rem 0;
   }
   to {
     background-position: 0 0;
@@ -4706,7 +4706,7 @@ a.label:focus, a.label:hover {
 
 @keyframes progress-bar-stripes {
   from {
-    background-position: 1rem 0;
+    background-position: 0.9375rem 0;
   }
   to {
     background-position: 0 0;
@@ -4716,8 +4716,8 @@ a.label:focus, a.label:hover {
 .progress {
   display: block;
   width: 100%;
-  height: 1rem;
-  margin-bottom: 1rem;
+  height: 0.9375rem;
+  margin-bottom: 0.9375rem;
 }
 
 .progress[value] {
@@ -4774,7 +4774,7 @@ base::-moz-progress-bar,
   }
   .progress-bar {
     display: inline-block;
-    height: 1rem;
+    height: 0.9375rem;
     text-indent: -999rem;
     background-color: #0074d9;
     border-bottom-left-radius: 0.25rem;
@@ -4789,18 +4789,18 @@ base::-moz-progress-bar,
 .progress-striped[value]::-webkit-progress-value {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  -webkit-background-size: 1rem 1rem;
-          background-size: 1rem 1rem;
+  -webkit-background-size: 0.9375rem 0.9375rem;
+          background-size: 0.9375rem 0.9375rem;
 }
 
 .progress-striped[value]::-moz-progress-bar {
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-size: 1rem 1rem;
+  background-size: 0.9375rem 0.9375rem;
 }
 
 .progress-striped[value]::-ms-fill {
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-size: 1rem 1rem;
+  background-size: 0.9375rem 0.9375rem;
 }
 
 @media screen and (min-width: 0\0) {
@@ -4808,8 +4808,8 @@ base::-moz-progress-bar,
     background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
     background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
     background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-    -webkit-background-size: 1rem 1rem;
-            background-size: 1rem 1rem;
+    -webkit-background-size: 0.9375rem 0.9375rem;
+            background-size: 0.9375rem 0.9375rem;
   }
 }
 
@@ -6029,153 +6029,153 @@ a.bg-danger:focus, a.bg-danger:hover {
 }
 
 .m-a-1 {
-  margin: 1rem 1rem !important;
+  margin: 0.9375rem 0.9375rem !important;
 }
 
 .m-t-1 {
-  margin-top: 1rem !important;
+  margin-top: 0.9375rem !important;
 }
 
 .m-r-1 {
-  margin-right: 1rem !important;
+  margin-right: 0.9375rem !important;
 }
 
 .m-b-1 {
-  margin-bottom: 1rem !important;
+  margin-bottom: 0.9375rem !important;
 }
 
 .m-l-1 {
-  margin-left: 1rem !important;
+  margin-left: 0.9375rem !important;
 }
 
 .m-x-1 {
-  margin-right: 1rem !important;
-  margin-left: 1rem !important;
+  margin-right: 0.9375rem !important;
+  margin-left: 0.9375rem !important;
 }
 
 .m-y-1 {
-  margin-top: 1rem !important;
-  margin-bottom: 1rem !important;
+  margin-top: 0.9375rem !important;
+  margin-bottom: 0.9375rem !important;
 }
 
 .m-a-2 {
-  margin: 1.5rem 1.5rem !important;
+  margin: 1.40625rem 1.40625rem !important;
 }
 
 .m-t-2 {
-  margin-top: 1.5rem !important;
+  margin-top: 1.40625rem !important;
 }
 
 .m-r-2 {
-  margin-right: 1.5rem !important;
+  margin-right: 1.40625rem !important;
 }
 
 .m-b-2 {
-  margin-bottom: 1.5rem !important;
+  margin-bottom: 1.40625rem !important;
 }
 
 .m-l-2 {
-  margin-left: 1.5rem !important;
+  margin-left: 1.40625rem !important;
 }
 
 .m-x-2 {
-  margin-right: 1.5rem !important;
-  margin-left: 1.5rem !important;
+  margin-right: 1.40625rem !important;
+  margin-left: 1.40625rem !important;
 }
 
 .m-y-2 {
-  margin-top: 1.5rem !important;
-  margin-bottom: 1.5rem !important;
+  margin-top: 1.40625rem !important;
+  margin-bottom: 1.40625rem !important;
 }
 
 .m-a-3 {
-  margin: 3rem 3rem !important;
+  margin: 2.8125rem 2.8125rem !important;
 }
 
 .m-t-3 {
-  margin-top: 3rem !important;
+  margin-top: 2.8125rem !important;
 }
 
 .m-r-3 {
-  margin-right: 3rem !important;
+  margin-right: 2.8125rem !important;
 }
 
 .m-b-3 {
-  margin-bottom: 3rem !important;
+  margin-bottom: 2.8125rem !important;
 }
 
 .m-l-3 {
-  margin-left: 3rem !important;
+  margin-left: 2.8125rem !important;
 }
 
 .m-x-3 {
-  margin-right: 3rem !important;
-  margin-left: 3rem !important;
+  margin-right: 2.8125rem !important;
+  margin-left: 2.8125rem !important;
 }
 
 .m-y-3 {
-  margin-top: 3rem !important;
-  margin-bottom: 3rem !important;
+  margin-top: 2.8125rem !important;
+  margin-bottom: 2.8125rem !important;
 }
 
 .m-a-4 {
-  margin: 4rem 4rem !important;
+  margin: 3.75rem 3.75rem !important;
 }
 
 .m-t-4 {
-  margin-top: 4rem !important;
+  margin-top: 3.75rem !important;
 }
 
 .m-r-4 {
-  margin-right: 4rem !important;
+  margin-right: 3.75rem !important;
 }
 
 .m-b-4 {
-  margin-bottom: 4rem !important;
+  margin-bottom: 3.75rem !important;
 }
 
 .m-l-4 {
-  margin-left: 4rem !important;
+  margin-left: 3.75rem !important;
 }
 
 .m-x-4 {
-  margin-right: 4rem !important;
-  margin-left: 4rem !important;
+  margin-right: 3.75rem !important;
+  margin-left: 3.75rem !important;
 }
 
 .m-y-4 {
-  margin-top: 4rem !important;
-  margin-bottom: 4rem !important;
+  margin-top: 3.75rem !important;
+  margin-bottom: 3.75rem !important;
 }
 
 .m-a-5 {
-  margin: 5rem 5rem !important;
+  margin: 4.6875rem 4.6875rem !important;
 }
 
 .m-t-5 {
-  margin-top: 5rem !important;
+  margin-top: 4.6875rem !important;
 }
 
 .m-r-5 {
-  margin-right: 5rem !important;
+  margin-right: 4.6875rem !important;
 }
 
 .m-b-5 {
-  margin-bottom: 5rem !important;
+  margin-bottom: 4.6875rem !important;
 }
 
 .m-l-5 {
-  margin-left: 5rem !important;
+  margin-left: 4.6875rem !important;
 }
 
 .m-x-5 {
-  margin-right: 5rem !important;
-  margin-left: 5rem !important;
+  margin-right: 4.6875rem !important;
+  margin-left: 4.6875rem !important;
 }
 
 .m-y-5 {
-  margin-top: 5rem !important;
-  margin-bottom: 5rem !important;
+  margin-top: 4.6875rem !important;
+  margin-bottom: 4.6875rem !important;
 }
 
 .p-a-0 {
@@ -6209,153 +6209,153 @@ a.bg-danger:focus, a.bg-danger:hover {
 }
 
 .p-a-1 {
-  padding: 1rem 1rem !important;
+  padding: 0.9375rem 0.9375rem !important;
 }
 
 .p-t-1 {
-  padding-top: 1rem !important;
+  padding-top: 0.9375rem !important;
 }
 
 .p-r-1 {
-  padding-right: 1rem !important;
+  padding-right: 0.9375rem !important;
 }
 
 .p-b-1 {
-  padding-bottom: 1rem !important;
+  padding-bottom: 0.9375rem !important;
 }
 
 .p-l-1 {
-  padding-left: 1rem !important;
+  padding-left: 0.9375rem !important;
 }
 
 .p-x-1 {
-  padding-right: 1rem !important;
-  padding-left: 1rem !important;
+  padding-right: 0.9375rem !important;
+  padding-left: 0.9375rem !important;
 }
 
 .p-y-1 {
-  padding-top: 1rem !important;
-  padding-bottom: 1rem !important;
+  padding-top: 0.9375rem !important;
+  padding-bottom: 0.9375rem !important;
 }
 
 .p-a-2 {
-  padding: 1.5rem 1.5rem !important;
+  padding: 1.40625rem 1.40625rem !important;
 }
 
 .p-t-2 {
-  padding-top: 1.5rem !important;
+  padding-top: 1.40625rem !important;
 }
 
 .p-r-2 {
-  padding-right: 1.5rem !important;
+  padding-right: 1.40625rem !important;
 }
 
 .p-b-2 {
-  padding-bottom: 1.5rem !important;
+  padding-bottom: 1.40625rem !important;
 }
 
 .p-l-2 {
-  padding-left: 1.5rem !important;
+  padding-left: 1.40625rem !important;
 }
 
 .p-x-2 {
-  padding-right: 1.5rem !important;
-  padding-left: 1.5rem !important;
+  padding-right: 1.40625rem !important;
+  padding-left: 1.40625rem !important;
 }
 
 .p-y-2 {
-  padding-top: 1.5rem !important;
-  padding-bottom: 1.5rem !important;
+  padding-top: 1.40625rem !important;
+  padding-bottom: 1.40625rem !important;
 }
 
 .p-a-3 {
-  padding: 3rem 3rem !important;
+  padding: 2.8125rem 2.8125rem !important;
 }
 
 .p-t-3 {
-  padding-top: 3rem !important;
+  padding-top: 2.8125rem !important;
 }
 
 .p-r-3 {
-  padding-right: 3rem !important;
+  padding-right: 2.8125rem !important;
 }
 
 .p-b-3 {
-  padding-bottom: 3rem !important;
+  padding-bottom: 2.8125rem !important;
 }
 
 .p-l-3 {
-  padding-left: 3rem !important;
+  padding-left: 2.8125rem !important;
 }
 
 .p-x-3 {
-  padding-right: 3rem !important;
-  padding-left: 3rem !important;
+  padding-right: 2.8125rem !important;
+  padding-left: 2.8125rem !important;
 }
 
 .p-y-3 {
-  padding-top: 3rem !important;
-  padding-bottom: 3rem !important;
+  padding-top: 2.8125rem !important;
+  padding-bottom: 2.8125rem !important;
 }
 
 .p-a-4 {
-  padding: 4rem 4rem !important;
+  padding: 3.75rem 3.75rem !important;
 }
 
 .p-t-4 {
-  padding-top: 4rem !important;
+  padding-top: 3.75rem !important;
 }
 
 .p-r-4 {
-  padding-right: 4rem !important;
+  padding-right: 3.75rem !important;
 }
 
 .p-b-4 {
-  padding-bottom: 4rem !important;
+  padding-bottom: 3.75rem !important;
 }
 
 .p-l-4 {
-  padding-left: 4rem !important;
+  padding-left: 3.75rem !important;
 }
 
 .p-x-4 {
-  padding-right: 4rem !important;
-  padding-left: 4rem !important;
+  padding-right: 3.75rem !important;
+  padding-left: 3.75rem !important;
 }
 
 .p-y-4 {
-  padding-top: 4rem !important;
-  padding-bottom: 4rem !important;
+  padding-top: 3.75rem !important;
+  padding-bottom: 3.75rem !important;
 }
 
 .p-a-5 {
-  padding: 5rem 5rem !important;
+  padding: 4.6875rem 4.6875rem !important;
 }
 
 .p-t-5 {
-  padding-top: 5rem !important;
+  padding-top: 4.6875rem !important;
 }
 
 .p-r-5 {
-  padding-right: 5rem !important;
+  padding-right: 4.6875rem !important;
 }
 
 .p-b-5 {
-  padding-bottom: 5rem !important;
+  padding-bottom: 4.6875rem !important;
 }
 
 .p-l-5 {
-  padding-left: 5rem !important;
+  padding-left: 4.6875rem !important;
 }
 
 .p-x-5 {
-  padding-right: 5rem !important;
-  padding-left: 5rem !important;
+  padding-right: 4.6875rem !important;
+  padding-left: 4.6875rem !important;
 }
 
 .p-y-5 {
-  padding-top: 5rem !important;
-  padding-bottom: 5rem !important;
+  padding-top: 4.6875rem !important;
+  padding-bottom: 4.6875rem !important;
 }
 
 .pos-f-t {
