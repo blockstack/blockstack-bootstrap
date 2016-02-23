@@ -89,7 +89,7 @@ fieldset[disabled] a.btn {
   @include button-outline-variant($btn-primary-bg);
 }
 .btn-outline-secondary {
-  @include button-outline-variant($btn-secondary-border);
+  @include button-outline-variant($btn-secondary-bg);  // Custom value - was $btn-secondary-border
 }
 .btn-outline-info {
   @include button-outline-variant($btn-info-bg);
