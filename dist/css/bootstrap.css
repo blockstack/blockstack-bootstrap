@@ -2845,23 +2845,23 @@ fieldset[disabled] a.btn {
 }
 
 .btn-outline-secondary {
-  color: #f0f0f0;
+  color: #fff;
   background-image: none;
   background-color: transparent;
-  border-color: #f0f0f0;
+  border-color: #fff;
 }
 
 .btn-outline-secondary:focus, .btn-outline-secondary.focus, .btn-outline-secondary:active, .btn-outline-secondary.active,
 .open > .btn-outline-secondary.dropdown-toggle {
   color: #fff;
-  background-color: #f0f0f0;
-  border-color: #f0f0f0;
+  background-color: #fff;
+  border-color: #fff;
 }
 
 .btn-outline-secondary:hover {
   color: #fff;
-  background-color: #f0f0f0;
-  border-color: #f0f0f0;
+  background-color: #fff;
+  border-color: #fff;
 }
 
 .btn-outline-secondary.disabled:focus, .btn-outline-secondary.disabled.focus, .btn-outline-secondary:disabled:focus, .btn-outline-secondary:disabled.focus {
