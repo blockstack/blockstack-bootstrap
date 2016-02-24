@@ -16,12 +16,12 @@
 @import "print";
 
 // Core CSS
-@import "reboot";
+@import "custom-reboot";     // Custom - @import "reboot";
 @import "type";
 @import "images";
 @import "code";
 @import "grid";
-@import "custom-tables";     //Custom - @import "tables";
+@import "custom-tables";     // Custom - @import "tables";
 @import "forms";
 @import "custom-buttons";    // Custom - @import "buttons";
 
