@@ -53,9 +53,9 @@
   border: $pagination-border-width solid $pagination-border-color;
 
   @include hover-focus {
-    color: $white;                            // Custom value - was $pagination-hover-color     
-    background-color: darken(color, 10%);     // Custom value - was $pagination-hover-bg
-    border-color: darken(color, 12%);         // Custom value - was $pagination-hover-border
+    color: $white;                                     // Custom value - was $pagination-hover-color     
+    background-color: darken($brand-primary, 10%);     // Custom value - was $pagination-hover-bg
+    border-color: darken($brand-primary, 12%);         // Custom value - was $pagination-hover-border
   }
 }
 
