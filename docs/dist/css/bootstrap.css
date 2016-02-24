@@ -311,7 +311,7 @@ html {
 body {
   font-family: "Raleway", sans-serif;
   font-size: 0.9375rem;
-  line-height: 1.875;
+  line-height: 1.75;
   color: #373a3c;
   background-color: #fff;
 }
@@ -2141,7 +2141,7 @@ pre code {
 }
 
 select.form-control:not([size]):not([multiple]) {
-  height: 2.757812rem;
+  height: 2.640625rem;
 }
 
 .form-control-file,
@@ -2159,7 +2159,7 @@ input[type="date"].form-control,
 input[type="time"].form-control,
 input[type="datetime-local"].form-control,
 input[type="month"].form-control {
-  line-height: 2.757812rem;
+  line-height: 2.640625rem;
 }
 
 _::-webkit-full-page-media.input-sm,
@@ -2197,7 +2197,7 @@ input[type="month"].form-control {
 }
 
 .form-control-static {
-  min-height: 2.757812rem;
+  min-height: 2.640625rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   margin-bottom: 0;
@@ -2302,9 +2302,9 @@ input[type="checkbox"].disabled {
 .form-control-danger {
   padding-right: 2.25rem;
   background-repeat: no-repeat;
-  background-position: center right 0.689453rem;
-  -webkit-background-size: 1.378906rem 1.378906rem;
-          background-size: 1.378906rem 1.378906rem;
+  background-position: center right 0.660156rem;
+  -webkit-background-size: 1.320312rem 1.320312rem;
+          background-size: 1.320312rem 1.320312rem;
 }
 
 .has-success .text-help,
@@ -5330,7 +5330,7 @@ button.close {
 
 .modal-title {
   margin: 0;
-  line-height: 1.875;
+  line-height: 1.75;
 }
 
 .modal-body {
@@ -5383,7 +5383,7 @@ button.close {
   font-weight: normal;
   letter-spacing: normal;
   line-break: auto;
-  line-height: 1.875;
+  line-height: 1.75;
   text-align: left;
   text-align: start;
   text-decoration: none;
@@ -5483,7 +5483,7 @@ button.close {
   font-weight: normal;
   letter-spacing: normal;
   line-break: auto;
-  line-height: 1.875;
+  line-height: 1.75;
   text-align: left;
   text-align: start;
   text-decoration: none;
