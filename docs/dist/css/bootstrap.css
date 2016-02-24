@@ -4464,9 +4464,9 @@ input[type="button"].btn-block {
 }
 
 .page-link:focus, .page-link:hover {
-  color: #971bab;
-  background-color: #eceeef;
-  border-color: #ddd;
+  color: #fff;
+  background-color: #351547;
+  border-color: #2f123f;
 }
 
 .pagination-lg .page-link {
