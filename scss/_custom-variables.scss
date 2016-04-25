@@ -212,7 +212,7 @@ $link-color:            $plum-100 !default;
 $link-decoration:       none !default;
 $link-hover-color:      darken($link-color, 15%) !default;
 $link-hover-decoration: underline !default;
-
+$link-outline:          none !default;                        // Custom
 
 // Grid breakpoints
 //
@@ -223,8 +223,8 @@ $grid-breakpoints: (
   xs: 0,
   sm: 544px,
   md: 768px,
-  lg: 975px,     // Custom
-  xl: 975px      // Custom
+  lg: 975px,      // Custom
+  xl: 1200px      // Custom
 ) !default;
 @include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
 
