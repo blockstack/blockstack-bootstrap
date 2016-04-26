@@ -199,23 +199,23 @@ label {
   }
 }
 fieldset.form-group.form-inverse > label {
-  color: $gray-blue-50;                          // Custom
+  color: $deep-slate-50;                          // Custom
 }
 
 .checkbox-radio-label-inverse-fix {
   padding-top: .25rem;                           // Custom
-  color: $gray-blue-50;                          // Custom
+  color: $deep-slate-50;                          // Custom
 }
 
 // Custom element
 .form-inverse-control-label {
-  color: $gray-blue-50;                          // Custom
+  color: $deep-slate-50;                          // Custom
   text-align: right;                             // Custom
   padding-right: $input-label-padding-x * 1.5;   // Custom
 }
 
 .text-muted-inverse {
-  color: $gray-blue-50;                          // Custom
+  color: $deep-slate-50;                          // Custom
 }
 
 
@@ -292,7 +292,7 @@ fieldset.form-group.form-inverse > label {
   @include transition(all .15s ease-in-out);   // Custom
 
   &::after {
-    content: $custom-file-placeholder;
+    content: $custom-file-text;
   }
 
   &::before {
@@ -398,7 +398,7 @@ fieldset.form-group.form-inverse > label {
   height: $custom-control-indicator-size;
   pointer-events: none;
   user-select: none;
-  background-color: $gray-blue-100;          // Custom
+  background-color: $deep-slate-100;          // Custom
   background-repeat: no-repeat;
   background-position: center center;
   background-size: $custom-control-indicator-bg-size;
@@ -462,7 +462,7 @@ fieldset.form-group.form-inverse > label {
  &:focus,
  &:hover {
     border-color: $input-inverse-border-focus;      // Custom
-    background-color: $gray-blue-200;               // Custom
+    background-color: $deep-slate-200;               // Custom
     color: $white;                                  // Custom
     font-weight: $input-inverse-label-font-weight;  // Custom
     outline: none;
@@ -496,7 +496,7 @@ fieldset.form-group.form-inverse > label {
   @include transition(all .15s ease-in-out);   // Custom
 
   &::after {
-    content: $custom-file-placeholder;
+    content: $custom-file-text;
   }
 
   &::before {
@@ -528,7 +528,7 @@ fieldset.form-group.form-inverse > label {
   &:focus,
   &:hover {
     border-color: $input-inverse-border-focus;               // Custom
-    background-color: $gray-blue-200;                        // Custom
+    background-color: $deep-slate-200;                        // Custom
     color: $white;                                           // Custom
     font-weight: $input-inverse-label-font-weight;           // Custom
     outline: none;                                           // Custom

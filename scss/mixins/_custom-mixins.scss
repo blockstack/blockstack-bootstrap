@@ -24,7 +24,7 @@
   &:focus {
     border-color: $input-inverse-border-focus;  // Custom
     outline: none;                              // Custom
-    background-color: $gray-blue-200;           // Custom
+    background-color: $deep-slate-200;           // Custom
     font-weight: 300;                           // Custom
     color: $white;                              // Custom
     $shadow: inset 0 1px 1px rgba(0,0,0,0), 0 0 8px $input-box-shadow-focus;
