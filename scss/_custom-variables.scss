@@ -212,7 +212,7 @@ $link-color:            $plum-100 !default;
 $link-decoration:       none !default;
 $link-hover-color:      darken($link-color, 15%) !default;
 $link-hover-decoration: underline !default;
-
+$link-outline:          none !default;                        // Custom
 
 // Grid breakpoints
 //
@@ -223,8 +223,8 @@ $grid-breakpoints: (
   xs: 0,
   sm: 544px,
   md: 768px,
-  lg: 975px,     // Custom
-  xl: 975px      // Custom
+  lg: 975px,      // Custom
+  xl: 1200px      // Custom
 ) !default;
 @include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
 
@@ -331,6 +331,8 @@ $kbd-box-shadow:         inset 0 -.1rem 0 rgba(0,0,0,.25) !default;
 $nested-kbd-font-weight: bold !default;
 
 $list-inline-padding: 5px !default;
+
+$text-casing:    uppercase !default;      // Custom
 
 
 // Components
@@ -531,6 +533,7 @@ $custom-file-border-radius: $border-radius !default;
 $custom-file-box-shadow:    inset 0 .2rem .4rem rgba(0,0,0,.05) !default;
 $custom-file-button-color:  $custom-file-color !default;
 $custom-file-button-bg:     #eee !default;
+$custom-file-padding:       .75rem 2.5rem .75rem 2.5rem !default;  // Custom
 $custom-file-text: (
   placeholder: (
     en: "Choose file..."
@@ -539,6 +542,32 @@ $custom-file-text: (
     en: "Browse"
   )
 ) !default;
+
+// Input labels
+$input-label-padding-x:          1rem !default;                    // Custom
+$input-label-padding-y:          .75rem !default;                  // Custom
+
+$input-label-font-size:          $font-size-xs !default;           // Custom
+$input-label-font-weight:        400 !default;                     // Custom
+$input-label-text-transform:     $text-casing !default;            // Custom
+
+// Inverse forms  // Custom
+$input-inverse-bg:                 $deep-slate-400 !default;        // Custom
+$input-inverse-border-color:       $deep-slate-400 !default;        // Custom
+$input-inverse-color:              $white !default;                // Custom
+$input-inverse-border-focus:       $deep-slate-100 !default;        // Custom
+$input-inverse-label-font-weight:  300 !default;                   // Custom
+$input-inverse-color-placeholder:  $deep-slate-50 !default;         // Custom
+
+// Inverse custom-select  // Custom
+$custom-select-inverse-bg:                           $deep-slate-300 !default;                          // Custom
+$custom-select-inverse-border-color:                 $deep-slate-300 !default;                          // Custom
+$custom-select-inverse-indicator:                    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAUAgMAAAD5DFXkAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MjFBRTNFMDNDNzcwMTFFNUIwNUM5M0IwMzhENTZERkQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MjFBRTNFMDRDNzcwMTFFNUIwNUM5M0IwMzhENTZERkQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoyMUFFM0UwMUM3NzAxMUU1QjA1QzkzQjAzOEQ1NkRGRCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDoyMUFFM0UwMkM3NzAxMUU1QjA1QzkzQjAzOEQ1NkRGRCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Plbf/wsAAAAMUExURQAAAGZmZmZmZszMzF/IoNMAAAADdFJOUwB/gL9pIscAAABFSURBVAgdBcExAYAgAATAw4XBEEawAs2kGRWMYAgHFnnvKA31xvHi+ihJU5Pbkbyu5AMAACNZzmTak8eWdMbCObE/2LofCTof4TvEpdkAAAAASUVORK5CYII=" !default;  // Custom
+$custom-inverse-file-bg:                             $custom-select-inverse-bg !default;               // Custom
+$custom-inverse-file-border-color:                   $custom-select-inverse-bg !default;               // Custom
+$custom-inverse-file-color:                          $white !default;                                  // Custom
+$custom-control-inverse-disabled-description-color:  $deep-slate-100 !default;                          // Custom
+$custom-control-inverse-disabled-indicator-bg:       $deep-slate-300 !default;                          // Custom
 
 
 // Form validation icons
@@ -821,6 +850,7 @@ $list-group-active-color:       $component-active-color !default;
 $list-group-active-bg:          $component-active-bg !default;
 $list-group-active-border:      $list-group-active-bg !default;
 $list-group-active-text-color:  lighten($list-group-active-bg, 40%) !default;
+$list-group-active-icon:        "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+PHN2ZyB3aWR0aD0iNnB4IiBoZWlnaHQ9IjhweCIgdmlld0JveD0iMCAwIDYgOCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWxuczpza2V0Y2g9Imh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaC9ucyI+ICAgICAgICA8dGl0bGU+aWNvbi1hcnJvdzwvdGl0bGU+ICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPiAgICA8ZGVmcz48L2RlZnM+ICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHNrZXRjaDp0eXBlPSJNU1BhZ2UiPiAgICAgICAgPGcgaWQ9ImJyb3dzZXItbGlnaHQtY2FyZHMiIHNrZXRjaDp0eXBlPSJNU0FydGJvYXJkR3JvdXAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zNjMuMDAwMDAwLCAtNDIyLjAwMDAwMCkiIHN0cm9rZT0iIzIyNzVENyI+ICAgICAgICAgICAgPGcgaWQ9IkRlcG9zaXRQYWdlLmpzIiBza2V0Y2g6dHlwZT0iTVNMYXllckdyb3VwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMzUuMDAwMDAwLCAxMDUuMDAwMDAwKSI+ICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0yOSwzMTcgTDMzLDMyMSBMMjksMzI1IiBpZD0iaWNvbi1hcnJvdyIgc2tldGNoOnR5cGU9Ik1TU2hhcGVHcm91cCI+PC9wYXRoPiAgICAgICAgICAgIDwvZz4gICAgICAgIDwvZz4gICAgPC9nPjwvc3ZnPg==" !default; // Custom
 
 $list-group-disabled-color:      $gray-light !default;
 $list-group-disabled-bg:         $gray-lighter !default;

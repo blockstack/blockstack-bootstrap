@@ -1,0 +1,34 @@
+// Custom Mixins
+//
+
+// Forms
+
+@mixin form-control-focus() {
+  &:focus {
+    border-color: $input-border-focus;          // Custom
+    outline: none;                              // Custom
+    background-color: $gray-50;                 // Custom
+    color: $input-color;                        // Custom
+    $shadow: inset 0 1px 1px rgba(0,0,0,0), 0 0 8px $input-box-shadow-focus;
+    @include box-shadow($shadow);
+    @include transition(all .15s ease-in-out);  // Custom
+  }
+}
+@mixin form-placeholder-fade-focus() {
+  &:focus::-webkit-input-placeholder {
+    opacity: 0; 
+    @include transition(all ease-in-out .15s);  // Custom
+  }
+}
+@mixin form-inverse-control-focus() {
+  &:focus {
+    border-color: $input-inverse-border-focus;  // Custom
+    outline: none;                              // Custom
+    background-color: $deep-slate-200;           // Custom
+    font-weight: 300;                           // Custom
+    color: $white;                              // Custom
+    $shadow: inset 0 1px 1px rgba(0,0,0,0), 0 0 8px $input-box-shadow-focus;
+    @include box-shadow($shadow);
+    @include transition(all .15s ease-in-out);  // Custom
+  }
+}
