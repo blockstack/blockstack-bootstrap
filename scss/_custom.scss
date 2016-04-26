@@ -262,7 +262,11 @@ fieldset.form-group.form-inverse > label {
   }
 }
 
+
+
 // File
+//
+// Custom file input.
 
 .custom-file {
   text-transform: capitalize!important;        // Custom
@@ -272,6 +276,18 @@ fieldset.form-group.form-inverse > label {
   max-width: 100%;
   height: $custom-file-height;
   cursor: pointer;
+}
+
+.custom-file-input {
+  min-width: $custom-file-width;
+  max-width: 100%;
+  margin: 0;
+  filter: alpha(opacity = 0);
+  opacity: 0;
+
+  &:focus ~ .custom-file-control {
+    @include box-shadow($custom-file-focus-box-shadow);
+  }
 }
 
 .custom-file-control {
@@ -291,8 +307,10 @@ fieldset.form-group.form-inverse > label {
   @include box-shadow($custom-file-box-shadow);
   @include transition(all .15s ease-in-out);   // Custom
 
-  &::after {
-    content: $custom-file-text;
+  @each $lang, $text in map-get($custom-file-text, placeholder) {
+    &:lang(#{$lang})::after {
+      content: $text;
+    }
   }
 
   &::before {
@@ -306,12 +324,11 @@ fieldset.form-group.form-inverse > label {
     padding: $custom-file-padding;               // Custom
     text-transform: $text-casing;                // Custom
     font-size: $font-size-xxs;                   // Custom
-    letter-spacing: 1px;                         // Custom  
+    letter-spacing: 1px;                         // Custom
     line-height: $custom-file-line-height;
     color: $custom-file-button-color;
-    content: $custom-file-button-label;
     background-color: $custom-file-button-bg;    // Custom
-    border: $custom-file-border-width solid $brand-primary;
+    border: $custom-file-border-width solid $custom-file-border-color;
     @include border-radius(0 $custom-file-border-radius $custom-file-border-radius 0);
   }
 
@@ -329,7 +346,14 @@ fieldset.form-group.form-inverse > label {
     outline: none;                                           // Custom
     @include box-shadow($custom-select-focus-box-shadow);    // Custom
   }
+
+  @each $lang, $text in map-get($custom-file-text, button-label) {
+    &:lang(#{$lang})::before {
+      content: $text;
+    }
+  }
 }
+
 
 
 // Custom Forms (Inverse)
@@ -475,9 +499,17 @@ fieldset.form-group.form-inverse > label {
   }
 }
 
-// File
 
-.custom-inverse-file-control {
+
+
+
+
+
+// File
+//
+// Custom inverse file input.
+
+.custom-file-control {
   position: absolute;
   top: 0;
   right: 0;
@@ -495,8 +527,10 @@ fieldset.form-group.form-inverse > label {
   @include box-shadow($custom-file-box-shadow);
   @include transition(all .15s ease-in-out);   // Custom
 
-  &::after {
-    content: $custom-file-text;
+  @each $lang, $text in map-get($custom-file-text, placeholder) {
+    &:lang(#{$lang})::after {
+      content: $text;
+    }
   }
 
   &::before {
@@ -513,9 +547,8 @@ fieldset.form-group.form-inverse > label {
     letter-spacing: 1px;                         // Custom  
     line-height: $custom-file-line-height;
     color: $custom-file-button-color;
-    content: $custom-file-button-label;
     background-color: $custom-file-button-bg;    // Custom
-    border: $custom-file-border-width solid $brand-primary;
+    border: $custom-file-border-width solid $custom-file-border-color;
     @include border-radius(0 $custom-file-border-radius $custom-file-border-radius 0);
   }
 
@@ -528,11 +561,17 @@ fieldset.form-group.form-inverse > label {
   &:focus,
   &:hover {
     border-color: $input-inverse-border-focus;               // Custom
-    background-color: $deep-slate-200;                        // Custom
+    background-color: $deep-slate-200;                       // Custom
     color: $white;                                           // Custom
     font-weight: $input-inverse-label-font-weight;           // Custom
     outline: none;                                           // Custom
     @include box-shadow($custom-select-focus-box-shadow);    // Custom
+  }
+
+  @each $lang, $text in map-get($custom-file-text, button-label) {
+    &:lang(#{$lang})::before {
+      content: $text;
+    }
   }
 }
 
