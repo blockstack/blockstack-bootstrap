@@ -2468,8 +2468,6 @@ input[type="checkbox"].disabled {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  text-transform: uppercase;
-  letter-spacing: 1px;
   border: 1px solid transparent;
   padding: 0.6875rem 2.375rem;
   font-size: 0.6875rem;
