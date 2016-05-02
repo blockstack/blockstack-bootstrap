@@ -17,7 +17,6 @@
   user-select: none;
   text-transform: $text-casing;      // Custom
   letter-spacing: 1px;               // Custom
-  height: 40px;                      // Custom
   border: $input-btn-border-width solid transparent;
   @include button-size($btn-padding-y, $btn-padding-x, $font-size-xxs, $btn-border-radius);  // Custom - font-size-xxs
   @include transition(all .2s ease-in-out);

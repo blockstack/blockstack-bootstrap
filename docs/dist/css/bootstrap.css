@@ -2470,7 +2470,6 @@ input[type="checkbox"].disabled {
           user-select: none;
   text-transform: uppercase;
   letter-spacing: 1px;
-  height: 40px;
   border: 1px solid transparent;
   padding: 0.6875rem 2.375rem;
   font-size: 0.6875rem;
