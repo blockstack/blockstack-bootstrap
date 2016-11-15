@@ -19,7 +19,7 @@ To get started, check out <http://getbootstrap.com>!
 
 - [Quick start](#quick-start)
 - [Bugs and feature requests](#bugs-and-feature-requests)
-- [Developing and Documentation](#developing-and-documentation)
+- [Developing and running documentation locally](#Developing-and-running-documentation-locally)
 - [Contributing](#contributing)
 - [Community](#community)
 - [Versioning](#versioning)
@@ -64,11 +64,9 @@ We provide compiled CSS and JS (`bootstrap.*`), as well as compiled and minified
 Have a bug or a feature request? Please first read the [issue guidelines](https://github.com/twbs/bootstrap/blob/master/CONTRIBUTING.md#using-the-issue-tracker) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://github.com/twbs/bootstrap/issues/new).
 
 
-## Documentation
+## Developing and running documentation locally
 
 Bootstrap's documentation, included in this repo in the root directory, is built with [Jekyll](http://jekyllrb.com) and publicly hosted on GitHub Pages at <http://getbootstrap.com>. The docs may also be run locally.
-
-### Developing and running documentation locally
 
 1. Run through the [tooling setup](https://github.com/twbs/bootstrap/blob/v4-dev/docs/getting-started/build-tools.md#tooling-setup) to install Jekyll (the site builder) and other Ruby dependencies with `bundle install`.
 1. Run `grunt` once to compile the CSS and JS into `/dist`.
