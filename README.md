@@ -19,7 +19,7 @@ To get started, check out <http://getbootstrap.com>!
 
 - [Quick start](#quick-start)
 - [Bugs and feature requests](#bugs-and-feature-requests)
-- [Developing and running documentation locally](#Developing-and-running-documentation-locally)
+- [Developing and running documentation](#developing-and-running-documentation-locally)
 - [Contributing](#contributing)
 - [Community](#community)
 - [Versioning](#versioning)
