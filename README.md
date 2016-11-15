@@ -66,7 +66,7 @@ Have a bug or a feature request? Please first read the [issue guidelines](https:
 
 ## Developing and running documentation locally
 
-Bootstrap's documentation, included in this repo in the root directory, is built with [Jekyll](http://jekyllrb.com) and publicly hosted on GitHub Pages at <http://getbootstrap.com>. The docs may also be run locally.
+Bootstrap's documentation, included in this repo in the root directory, is built with [Jekyll](http://jekyllrb.com) and publicly hosted on GitHub Pages at <http://getbootstrap.com>. The docs may also be run locally. Learn more about using Jekyll by reading its [documentation](http://jekyllrb.com/docs/home/).
 
 1. Run through the [tooling setup](https://github.com/twbs/bootstrap/blob/v4-dev/docs/getting-started/build-tools.md#tooling-setup) to install Jekyll (the site builder) and other Ruby dependencies with `bundle install`.
 1. Run `grunt` once to compile the CSS and JS into `/dist`.
@@ -75,19 +75,11 @@ Bootstrap's documentation, included in this repo in the root directory, is built
 1. Go to `localhost:4000` to view the documentation site.
 1. As you update and save files, `grunt watch` will rebuild the assets. When it is done, you can refresh a page on the doc site and you will see the page has been updated with the new styles.
 
-Learn more about using Jekyll by reading its [documentation](http://jekyllrb.com/docs/home/).
-
-### Documentation for previous releases
-
-#### Documentation from v4.0.0
+### Documentation from v4.0.0
 
 1. Run through the [tooling setup](https://github.com/twbs/bootstrap/blob/v4-dev/docs/getting-started/build-tools.md#tooling-setup) to install Jekyll (the site builder) and other Ruby dependencies with `bundle install`.
 1. From the root `/bootstrap` directory, run `bundle exec jekyll serve` in the command line.
 1. Open <http://localhost:9001> in your browser, and voilà.
-
-Documentation for v2.3.2 has been made available for the time being at <http://getbootstrap.com/2.3.2/> while folks transition to Bootstrap 3.
-
-[Previous releases](https://github.com/twbs/bootstrap/releases) and their documentation are also available for download.
 
 
 ## Contributing
@@ -138,11 +130,3 @@ See [the Releases section of our GitHub project](https://github.com/twbs/bootstr
 
 Code and documentation copyright 2011-2016 Twitter, Inc. Code released under [the MIT license](https://github.com/twbs/bootstrap/blob/master/LICENSE). Docs released under [Creative Commons](https://github.com/twbs/bootstrap/blob/master/docs/LICENSE).
 
-
-## Developing
-
-1. Run `grunt` once to compile the CSS and JS into `/dist`.
-1. In one tab, run `grunt watch` to continue syncing files as you edit them.
-1. In another tab, `cd` into the `/docs` directory and run `jekyll serve` to serve up the documentation site with style guide.
-1. Go to `localhost:4000` to view the documentation site.
-1. As you update and save files, `grunt watch` will rebuild the assets. When it is done, you can refresh a page on the doc site and you will see the page has been updated with the new styles.
