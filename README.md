@@ -1,4 +1,6 @@
-# [Bootstrap](http://getbootstrap.com)
+# Blockstack Bootstrap
+
+##### Blockstack Bootstrap is a fork of the [Bootstrap v4](http://v4-alpha.getbootstrap.com/) UI framework.
 
 [![Slack](https://bootstrap-slack.herokuapp.com/badge.svg)](https://bootstrap-slack.herokuapp.com)
 ![Bower version](https://img.shields.io/bower/v/bootstrap.svg)
