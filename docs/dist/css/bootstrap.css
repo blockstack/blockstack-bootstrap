@@ -485,7 +485,7 @@ output {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 2rem;
-  font-family: inherit;
+  font-family: "Source Code Pro", "Courier New", monospace;
   font-weight: 500;
   line-height: 1.35;
   color: inherit;
@@ -665,7 +665,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: "Source Code Pro", Courier New, monospace;
+  font-family: "Source Code Pro", "Courier New", monospace;
 }
 
 code {
@@ -6624,7 +6624,7 @@ a.text-danger:focus, a.text-danger:hover {
 h1.type-inverse, h2.type-inverse, h3.type-inverse, h4.type-inverse, h5.type-inverse, h6.type-inverse,
 .h1.type-inverse, .h2.type-inverse, .h3.type-inverse, .h4.type-inverse, .h5.type-inverse, .h6.type-inverse {
   margin-bottom: 2rem;
-  font-family: inherit;
+  font-family: "Source Code Pro", "Courier New", monospace;
   font-weight: 300;
   line-height: 1.35;
   color: #fff;

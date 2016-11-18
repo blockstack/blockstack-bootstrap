@@ -254,19 +254,24 @@ $grid-gutter-width: 30px !default;
 //
 // Font, line-height, and color for body text, headings, and more.
 
-// Chosen typefase - Lato - https://www.google.com/fonts/specimen/Lato
-// Lato (google font) - Thin         100
-// Lato (google font) - Extra-Light  200
-// Lato (google font) - Light        300
-// Lato (google font) - Normal       400
-// Lato (google font) - Medium       500
-// Lato (google font) - Semi-Bold    600
-// Lato (google font) - Bold         700
-// Lato (google font) - Extra-Bold   800
+// Chosen Google font - Souce Code Pro - https://www.google.com/fonts/specimen/Souce+Code+Pro
+// Source Code Pro — Light       300
+// Source Code Pro — Regular     400
+// Source Code Pro — Medium      500
+// Source Code Pro — Semi-Bold   600
+// Source Code Pro — Bold        700
+
+// Chosen Google font - Lato - https://www.google.com/fonts/specimen/Lato
+// Lato — Light            300
+// Lato — Light Italic     300i
+// Lato — Regular          400
+// Lato — Regular Italic   400i
+// Lato — Bold             700
+// Lato — Bold Italic      700i
 
 $font-family-sans-serif:     'Lato', sans-serif !default;
 $font-family-serif:          Georgia, "Times New Roman", Times, serif !default;
-$font-family-monospace:      'Source Code Pro', Courier New, monospace !default;
+$font-family-monospace:      'Source Code Pro', "Courier New", monospace !default;
 $font-family-base:           $font-family-sans-serif !default;
 
 // Pixel value used to responsively scale all typography. Applied to the `<html>` element.
@@ -298,13 +303,13 @@ $display2-weight: 300 !default;
 $display3-weight: 300 !default;
 $display4-weight: 300 !default;
 
-$headings-margin-bottom:         ($spacer * 2) !default;       // Custom value string - ($spacer / 2) !default
-$headings-font-family:           inherit !default;
-$headings-font-weight:           500 !default;                 // Custom value
-$headings-line-height:           1.35 !default;                // Custom value
-$headings-color:                 inherit !default;
-$headings-inverse-font-weight:   300 !default;                 // Custom
-$headings-inverse-color:         $white;                       // Custom
+$headings-margin-bottom:         ($spacer * 2) !default;            // Custom value string - ($spacer / 2) !default
+$headings-font-family:           $font-family-monospace !default;   // Custom value 
+$headings-font-weight:           500 !default;                      // Custom value
+$headings-line-height:           1.35 !default;                     // Custom value
+$headings-color:                 inherit !default;                  
+$headings-inverse-font-weight:   300 !default;                      // Custom
+$headings-inverse-color:         $white;                            // Custom
 
 $lead-font-size:   1.125rem !default;     // 1.25rem   // Custom value
 $lead-font-weight: 300 !default;

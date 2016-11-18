@@ -363,8 +363,7 @@ All HTML headings, `<h1>` through `<h6>`, are available. `.h1` through `.h6` cla
 
 All HTML headings, `<h1>` through `<h6>`, are available. `.h1` through `.h6` classes are also available, for when you want to match the font styling of a heading but still want your text to be displayed inline.
 
-<div class="container" style="background-color: #23262a; padding: 35px 25px;">
-<div class="bd-example bd-example-type">
+<div class="bd-example bd-example-type" style="background-color: #270F34;">
   <table class="table">
     <tbody>
       <tr>
@@ -393,7 +392,6 @@ All HTML headings, `<h1>` through `<h6>`, are available. `.h1` through `.h6` cla
       </tr>
     </tbody>
   </table>
-</div>
 </div>
 
 {% highlight html %}
