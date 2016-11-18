@@ -303,13 +303,17 @@ $display2-weight: 300 !default;
 $display3-weight: 300 !default;
 $display4-weight: 300 !default;
 
-$headings-margin-bottom:         ($spacer * 2) !default;            // Custom value string - ($spacer / 2) !default
-$headings-font-family:           $font-family-monospace !default;   // Custom value 
-$headings-font-weight:           400 !default;                      // Custom value
-$headings-line-height:           1.35 !default;                     // Custom value
-$headings-color:                 inherit !default;                  
-$headings-inverse-font-weight:   300 !default;                      // Custom
-$headings-inverse-color:         $white;                            // Custom
+$headings-margin-bottom:           ($spacer * 2) !default;             // Custom value string - ($spacer / 2) !default
+$headings-font-family:             $font-family-sans-serif !default;   // Custom value 
+$headings-font-weight:             400 !default;                       // Custom value
+$headings-line-height:             1.35 !default;                      // Custom value
+$headings-color:                   inherit !default;                  
+
+$headings-inverse-margin-bottom:   ($spacer * 2) !default;             // Custom
+$headings-inverse-font-family:     $font-family-monospace !default;    // Custom
+$headings-inverse-font-weight:     300 !default;                       // Custom
+$headings-inverse-line-height:     1.35 !default;                      // Custom
+$headings-inverse-color:           $white;                             // Custom
 
 $lead-font-size:   1.125rem !default;     // 1.25rem   // Custom value
 $lead-font-weight: 300 !default;

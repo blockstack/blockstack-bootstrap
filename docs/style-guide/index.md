@@ -23,8 +23,10 @@ group: style-guide
   .bd-example {
     padding: 45px;
   }
+  .bd-pageheader {
+    background-color: #270F34;
+  }
 </style>
-
 
 <h1>Grid</h1>
 
@@ -454,7 +456,7 @@ All HTML headings, `<h1>` through `<h6>`, are available. `.h1` through `.h6` cla
           <span class="text-values-mute">semi-bold 600 </span><br />
           <span class="text-values-mute">bold 700 </span>
         </td>
-        <td><h1 class="type-inverse">h1. Blockstack heading</h1></td>
+        <td><h1 class="h1-inverse">h1. Blockstack heading</h1></td>
       </tr>
       <tr>
         <td class="type-info text-values" style="padding-top: 33px;">1.875rem / 30px</td>
@@ -467,7 +469,7 @@ All HTML headings, `<h1>` through `<h6>`, are available. `.h1` through `.h6` cla
           <span class="text-values-mute">semi-bold 600 </span><br />
           <span class="text-values-mute">bold 700 </span>
         </td>
-        <td><h2 class="type-inverse">h2. Blockstack heading</h2></td>
+        <td><h2 class="h2-inverse">h2. Blockstack heading</h2></td>
       </tr>
       <tr>
         <td class="type-info text-values" style="padding-top: 29px;">1.625rem / 26px</td>
@@ -480,7 +482,7 @@ All HTML headings, `<h1>` through `<h6>`, are available. `.h1` through `.h6` cla
           <span class="text-values-mute">semi-bold 600 </span><br />
           <span class="text-values-mute">bold 700 </span>
         </td>
-        <td><h3 class="type-inverse">h3. Blockstack heading</h3></td>
+        <td><h3 class="h3-inverse">h3. Blockstack heading</h3></td>
       </tr>
       <tr>
         <td class="type-info text-values" style="padding-top: 25px;">1.375rem / 22px</td>
@@ -493,7 +495,7 @@ All HTML headings, `<h1>` through `<h6>`, are available. `.h1` through `.h6` cla
           <span class="text-values-mute">semi-bold 600 </span><br />
           <span class="text-values-mute">bold 700 </span>
         </td>
-        <td><h4 class="type-inverse">h4. Blockstack heading</h4></td>
+        <td><h4 class="h4-inverse">h4. Blockstack heading</h4></td>
       </tr>
       <tr>
         <td class="type-info text-values" style="padding-top: 21px;">125rem / 18px</td>
@@ -506,7 +508,7 @@ All HTML headings, `<h1>` through `<h6>`, are available. `.h1` through `.h6` cla
           <span class="text-values-mute">semi-bold 600 </span><br />
           <span class="text-values-mute">bold 700 </span>
         </td>
-        <td><h5 class="type-inverse">h5. Blockstack heading</h5></td>
+        <td><h5 class="h5-inverse">h5. Blockstack heading</h5></td>
       </tr>
       <tr>
         <td class="type-info text-values" style="padding-top: 17px;">.875rem / 14px</td>
@@ -519,7 +521,7 @@ All HTML headings, `<h1>` through `<h6>`, are available. `.h1` through `.h6` cla
           <span class="text-values-mute">semi-bold 600 </span><br />
           <span class="text-values-mute">bold 700 </span>
         </td>
-        <td><h6 class="type-inverse">h6. Blockstack heading</h6></td>
+        <td><h6 class="h6-inverse">h6. Blockstack heading</h6></td>
       </tr>
     </tbody>
   </table>

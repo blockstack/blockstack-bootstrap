@@ -485,10 +485,18 @@ output {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 2rem;
-  font-family: "Source Code Pro", "Courier New", monospace;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   line-height: 1.35;
   color: inherit;
+}
+
+.h1-inverse, .h2-inverse, .h3-inverse, .h4-inverse, .h5-inverse, .h6-inverse {
+  margin-bottom: 2rem;
+  font-family: "Source Code Pro", "Courier New", monospace;
+  font-weight: 300;
+  line-height: 1.35;
+  color: #fff;
 }
 
 h1, .h1 {
@@ -6624,7 +6632,7 @@ a.text-danger:focus, a.text-danger:hover {
 h1.type-inverse, h2.type-inverse, h3.type-inverse, h4.type-inverse, h5.type-inverse, h6.type-inverse,
 .h1.type-inverse, .h2.type-inverse, .h3.type-inverse, .h4.type-inverse, .h5.type-inverse, .h6.type-inverse {
   margin-bottom: 2rem;
-  font-family: "Source Code Pro", "Courier New", monospace;
+  font-family: "Lato", sans-serif;
   font-weight: 300;
   line-height: 1.35;
   color: #fff;
