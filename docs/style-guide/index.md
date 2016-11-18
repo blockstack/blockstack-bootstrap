@@ -368,27 +368,27 @@ All HTML headings, `<h1>` through `<h6>`, are available. `.h1` through `.h6` cla
     <tbody>
       <tr>
         <td><h1 class="type-inverse">h1. Bootstrap heading</h1></td>
-        <td class="type-info"><small>weight 400 - 2.25rem / 36px</small></td>
+        <td class="type-info"><small>weight 300 - 2.25rem / 36px</small></td>
       </tr>
       <tr>
         <td><h2 class="type-inverse">h2. Bootstrap heading</h2></td>
-        <td class="type-info"><small>weight 400 - 1.875rem / 30px</small></td>
+        <td class="type-info"><small>weight 300 - 1.875rem / 30px</small></td>
       </tr>
       <tr>
         <td><h3 class="type-inverse">h3. Bootstrap heading</h3></td>
-        <td class="type-info"><small>weight 400 - 1.625rem / 26px</small></td>
+        <td class="type-info"><small>weight 300 - 1.625rem / 26px</small></td>
       </tr>
       <tr>
         <td><h4 class="type-inverse">h4. Bootstrap heading</h4></td>
-        <td class="type-info"><small>weight 400 - 1.25rem / 20px</small></td>
+        <td class="type-info"><small>weight 300 - 1.25rem / 20px</small></td>
       </tr>
       <tr>
         <td><h5 class="type-inverse">h5. Bootstrap heading</h5></td>
-        <td class="type-info"><small>weight 400 - 1rem / 16px</small></td>
+        <td class="type-info"><small>weight 300 - 1rem / 16px</small></td>
       </tr>
       <tr>
         <td><h6 class="type-inverse">h6. Bootstrap heading</h6></td>
-        <td class="type-info"><small>weight 400 - .875rem / 14px</small></td>
+        <td class="type-info"><small>weight 300 - .875rem / 14px</small></td>
       </tr>
     </tbody>
   </table>
