@@ -3,6 +3,16 @@ layout: docs
 group: style-guide
 ---
 
+
+<style type="text/css">
+  .text-values{
+    color: #D0011B!important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+  }
+</style>
+
+
 <h1>Grid</h1>
 
 #### Stacked-to-horizontal
@@ -323,28 +333,28 @@ All HTML headings, `<h1>` through `<h6>`, are available. `.h1` through `.h6` cla
   <table class="table">
     <tbody>
       <tr>
-        <td><h1>h1. Bootstrap heading</h1></td>
-        <td class="type-info"><small>weight 400 - 2.25rem / 36px</small></td>
+        <td class="type-info text-values">weight 400 - 2.25rem / 36px</td>
+        <td><h1>h1. Bootstrap heading</h1></td>        
       </tr>
       <tr>
-        <td><h2>h2. Bootstrap heading</h2></td>
-        <td class="type-info"><small>weight 400 - 1.875rem / 30px</small></td>
+        <td class="type-info text-values">weight 400 - 1.875rem / 30px</td>
+        <td><h2>h2. Bootstrap heading</h2></td>        
       </tr>
       <tr>
-        <td><h3>h3. Bootstrap heading</h3></td>
-        <td class="type-info"><small>weight 400 - 1.625rem / 26px</small></td>
+        <td class="type-info text-values">weight 400 - 1.625rem / 26px</td>
+        <td><h3>h3. Bootstrap heading</h3></td>        
       </tr>
       <tr>
-        <td><h4>h4. Bootstrap heading</h4></td>
-        <td class="type-info"><small>weight 400 - 1.25rem / 20px</small></td>
+        <td class="type-info text-values">weight 400 - 1.375rem / 22px</td>
+        <td><h4>h4. Bootstrap heading</h4></td>        
       </tr>
       <tr>
-        <td><h5>h5. Bootstrap heading</h5></td>
-        <td class="type-info"><small>weight 400 - 1rem / 16px</small></td>
+        <td class="type-info text-values">weight 400 - 125rem / 18px</td>
+        <td><h5>h5. Bootstrap heading</h5></td>        
       </tr>
       <tr>
-        <td><h6>h6. Bootstrap heading</h6></td>
-        <td class="type-info"><small>weight 400 - .875rem / 14px</small></td>
+        <td class="type-info text-values">weight 400 - .875rem / 14px</td>
+        <td><h6>h6. Bootstrap heading</h6></td>        
       </tr>
     </tbody>
   </table>
@@ -367,28 +377,28 @@ All HTML headings, `<h1>` through `<h6>`, are available. `.h1` through `.h6` cla
   <table class="table">
     <tbody>
       <tr>
+        <td class="type-info text-values">weight 300 - 2.25rem / 36px</td>
         <td><h1 class="type-inverse">h1. Bootstrap heading</h1></td>
-        <td class="type-info"><small>weight 300 - 2.25rem / 36px</small></td>
       </tr>
       <tr>
+        <td class="type-info text-values">weight 300 - 1.875rem / 30px</td>
         <td><h2 class="type-inverse">h2. Bootstrap heading</h2></td>
-        <td class="type-info"><small>weight 300 - 1.875rem / 30px</small></td>
       </tr>
       <tr>
+        <td class="type-info text-values">weight 300 - 1.625rem / 26px</td>
         <td><h3 class="type-inverse">h3. Bootstrap heading</h3></td>
-        <td class="type-info"><small>weight 300 - 1.625rem / 26px</small></td>
       </tr>
       <tr>
+        <td class="type-info text-values">weight 300 - 1.375rem / 22px</td>
         <td><h4 class="type-inverse">h4. Bootstrap heading</h4></td>
-        <td class="type-info"><small>weight 300 - 1.25rem / 20px</small></td>
       </tr>
       <tr>
+        <td class="type-info text-values">weight 300 - 125rem / 18px</td>
         <td><h5 class="type-inverse">h5. Bootstrap heading</h5></td>
-        <td class="type-info"><small>weight 300 - 1rem / 16px</small></td>
       </tr>
       <tr>
+        <td class="type-info text-values">weight 300 - .875rem / 14px</td>
         <td><h6 class="type-inverse">h6. Bootstrap heading</h6></td>
-        <td class="type-info"><small>weight 300 - .875rem / 14px</small></td>
       </tr>
     </tbody>
   </table>
