@@ -310,7 +310,7 @@ html {
 
 body {
   font-family: "Lato", sans-serif;
-  font-size: 0.9375rem;
+  font-size: 1rem;
   line-height: 1.75;
   color: #373a3c;
   background-color: #fff;
@@ -585,7 +585,7 @@ mark,
 .blockquote {
   padding: 0.5rem 1rem;
   margin-bottom: 1rem;
-  font-size: 1.171875rem;
+  font-size: 1.25rem;
   border-left: 0.25rem solid #eceeef;
 }
 
@@ -2085,7 +2085,7 @@ pre code {
   display: block;
   width: 100%;
   padding: 0.5rem 0.75rem;
-  font-size: 0.9375rem;
+  font-size: 1rem;
   line-height: 1.25;
   color: #55595c;
   background-color: #fff;
@@ -2146,7 +2146,7 @@ pre code {
 }
 
 select.form-control:not([size]):not([multiple]) {
-  height: 2.640625rem;
+  height: 2.75rem;
 }
 
 .form-control-file,
@@ -2164,7 +2164,7 @@ input[type="date"].form-control,
 input[type="time"].form-control,
 input[type="datetime-local"].form-control,
 input[type="month"].form-control {
-  line-height: 2.640625rem;
+  line-height: 2.75rem;
 }
 
 _::-webkit-full-page-media.input-sm,
@@ -2202,7 +2202,7 @@ input[type="month"].form-control {
 }
 
 .form-control-static {
-  min-height: 2.640625rem;
+  min-height: 2.75rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   margin-bottom: 0;
@@ -2307,9 +2307,9 @@ input[type="checkbox"].disabled {
 .form-control-danger {
   padding-right: 2.25rem;
   background-repeat: no-repeat;
-  background-position: center right 0.660156rem;
-  -webkit-background-size: 1.320312rem 1.320312rem;
-          background-size: 1.320312rem 1.320312rem;
+  background-position: center right 0.6875rem;
+  -webkit-background-size: 1.375rem 1.375rem;
+          background-size: 1.375rem 1.375rem;
 }
 
 .has-success .text-help,
@@ -3048,7 +3048,7 @@ fieldset[disabled] a.btn {
 
 .btn-lg, .btn-group-lg > .btn {
   padding: 1.125rem 3.438rem;
-  font-size: 0.9375rem;
+  font-size: 1rem;
   border-radius: 0.3rem;
 }
 
@@ -3144,7 +3144,7 @@ input[type="button"].btn-block {
   min-width: 160px;
   padding: 5px 0;
   margin: 2px 0 0;
-  font-size: 0.9375rem;
+  font-size: 1rem;
   color: #373a3c;
   text-align: left;
   list-style: none;
@@ -3474,7 +3474,7 @@ input[type="button"].btn-block {
 .input-group-addon {
   padding: 0.5rem 0.75rem;
   margin-bottom: 0;
-  font-size: 0.9375rem;
+  font-size: 1rem;
   font-weight: normal;
   line-height: 1.25;
   color: #55595c;
@@ -5220,7 +5220,7 @@ button.list-group-item-danger.active:hover {
 
 .close {
   float: right;
-  font-size: 1.40625rem;
+  font-size: 1.5rem;
   font-weight: bold;
   line-height: 1;
   color: #000;
@@ -5589,7 +5589,7 @@ button.close {
 .popover-title {
   padding: 8px 14px;
   margin: 0;
-  font-size: 0.9375rem;
+  font-size: 1rem;
   background-color: #f7f7f7;
   border-bottom: 1px solid #ebebeb;
   border-radius: 0.2375rem 0.2375rem 0 0;
@@ -6645,7 +6645,7 @@ a, a:focus {
   display: block;
   width: 100%;
   padding: 0.5rem 0.75rem;
-  font-size: 0.9375rem;
+  font-size: 1rem;
   line-height: 1.75;
   color: #55595c;
   background-color: #fff;
@@ -6736,7 +6736,7 @@ label {
 }
 
 .checkbox label, .radio label {
-  font-size: 0.9375rem;
+  font-size: 1rem;
   text-transform: capitalize;
 }
 
@@ -6753,7 +6753,7 @@ label {
   display: block;
   width: 100%;
   padding: 0.5rem 0.75rem;
-  font-size: 0.9375rem;
+  font-size: 1rem;
   line-height: 1.75;
   font-weight: 300;
   color: #fff;
@@ -6889,7 +6889,7 @@ fieldset.form-group.form-inverse > label {
 
 .custom-file {
   text-transform: capitalize !important;
-  font-size: 0.9375rem !important;
+  font-size: 1rem !important;
   position: relative;
   display: inline-block;
   max-width: 100%;
@@ -7192,8 +7192,8 @@ button.list-group-item:hover {
   background-color: #270F34;
   background-repeat: no-repeat;
   background-position: center left;
-  -webkit-background-size: 0.65625rem 0.65625rem;
-          background-size: 0.65625rem 0.65625rem;
+  -webkit-background-size: 0.7rem 0.7rem;
+          background-size: 0.7rem 0.7rem;
   background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+PHN2ZyB3aWR0aD0iNnB4IiBoZWlnaHQ9IjhweCIgdmlld0JveD0iMCAwIDYgOCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWxuczpza2V0Y2g9Imh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaC9ucyI+ICAgICAgICA8dGl0bGU+aWNvbi1hcnJvdzwvdGl0bGU+ICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPiAgICA8ZGVmcz48L2RlZnM+ICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHNrZXRjaDp0eXBlPSJNU1BhZ2UiPiAgICAgICAgPGcgaWQ9ImJyb3dzZXItbGlnaHQtY2FyZHMiIHNrZXRjaDp0eXBlPSJNU0FydGJvYXJkR3JvdXAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zNjMuMDAwMDAwLCAtNDIyLjAwMDAwMCkiIHN0cm9rZT0iIzIyNzVENyI+ICAgICAgICAgICAgPGcgaWQ9IkRlcG9zaXRQYWdlLmpzIiBza2V0Y2g6dHlwZT0iTVNMYXllckdyb3VwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMzUuMDAwMDAwLCAxMDUuMDAwMDAwKSI+ICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0yOSwzMTcgTDMzLDMyMSBMMjksMzI1IiBpZD0iaWNvbi1hcnJvdyIgc2tldGNoOnR5cGU9Ik1TU2hhcGVHcm91cCI+PC9wYXRoPiAgICAgICAgICAgIDwvZz4gICAgICAgIDwvZz4gICAgPC9nPjwvc3ZnPg==");
   border-color: #270F34;
 }

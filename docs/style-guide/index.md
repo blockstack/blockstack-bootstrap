@@ -9,6 +9,19 @@ group: style-guide
     color: #D0011B!important;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
+    line-height: 18px;
+  }
+  .text-values-mute {
+    color: rgba(208,1,27,.5)!important;
+  }
+  .bd-example-type .table .type-info {
+    vertical-align: top;
+  }
+  .table-typography td {
+    border: none;
+  }
+  .bd-example {
+    padding: 45px;
   }
 </style>
 
@@ -330,43 +343,97 @@ Green checkmarks indicate the element **is visible** in your current viewport.
 All HTML headings, `<h1>` through `<h6>`, are available. `.h1` through `.h6` classes are also available, for when you want to match the font styling of a heading but still want your text to be displayed inline.
 
 <div class="bd-example bd-example-type">
-  <table class="table">
+  <table class="table table-typography">
     <tbody>
       <tr>
-        <td class="type-info text-values">weight 400 - 2.25rem / 36px</td>
-        <td><h1>h1. Bootstrap heading</h1></td>        
+        <td class="type-info text-values" style="padding-top: 39px;">2.25rem / 36px</td>
+        <td class="type-info text-values" style="padding-top: 39px; padding-left: 20px;">
+          <div style="position: absolute; border-left: 1px solid #D0011B; padding-top: 24px; padding-bottom: 24px; margin-left: -20px;"></div>
+          Source Code Pro <br />
+          <span class="text-values-mute">light 300 </span><br />
+          regular 400 <br />
+          <span class="text-values-mute">medium 500 </span><br />
+          <span class="text-values-mute">semi-bold 600 </span><br />
+          <span class="text-values-mute">bold 700 </span>
+        </td>
+        <td><h1>h1. Blockstack heading</h1></td>        
       </tr>
       <tr>
-        <td class="type-info text-values">weight 400 - 1.875rem / 30px</td>
-        <td><h2>h2. Bootstrap heading</h2></td>        
+        <td class="type-info text-values" style="padding-top: 33px;">1.875rem / 30px</td>
+        <td class="type-info text-values" style="padding-top: 33px; padding-left: 20px;">
+          <div style="position: absolute; border-left: 1px solid #D0011B; padding-top: 24px; padding-bottom: 24px; margin-left: -20px;"></div>
+          Source Code Pro <br />
+          <span class="text-values-mute">light 300 </span><br />
+          regular 400 <br />
+          <span class="text-values-mute">medium 500 </span><br />
+          <span class="text-values-mute">semi-bold 600 </span><br />
+          <span class="text-values-mute">bold 700 </span>
+        </td>
+        <td><h2>h2. Blockstack heading</h2></td>        
       </tr>
       <tr>
-        <td class="type-info text-values">weight 400 - 1.625rem / 26px</td>
-        <td><h3>h3. Bootstrap heading</h3></td>        
+        <td class="type-info text-values" style="padding-top: 29px;">1.625rem / 26px</td>
+        <td class="type-info text-values" style="padding-top: 29px; padding-left: 20px;">
+          <div style="position: absolute; border-left: 1px solid #D0011B; padding-top: 24px; padding-bottom: 24px; margin-left: -20px;"></div>
+          Source Code Pro <br />
+          <span class="text-values-mute">light 300 </span><br />
+          regular 400 <br />
+          <span class="text-values-mute">medium 500 </span><br />
+          <span class="text-values-mute">semi-bold 600 </span><br />
+          <span class="text-values-mute">bold 700 </span>
+        </td>
+        <td><h3>h3. Blockstack heading</h3></td>        
       </tr>
       <tr>
-        <td class="type-info text-values">weight 400 - 1.375rem / 22px</td>
-        <td><h4>h4. Bootstrap heading</h4></td>        
+        <td class="type-info text-values" style="padding-top: 25px;">1.375rem / 22px</td>
+        <td class="type-info text-values" style="padding-top: 25px; padding-left: 20px;">
+          <div style="position: absolute; border-left: 1px solid #D0011B; padding-top: 24px; padding-bottom: 24px; margin-left: -20px;"></div>
+          Source Code Pro <br />
+          <span class="text-values-mute">light 300 </span><br />
+          regular 400 <br />
+          <span class="text-values-mute">medium 500 </span><br />
+          <span class="text-values-mute">semi-bold 600 </span><br />
+          <span class="text-values-mute">bold 700 </span>
+        </td>
+        <td><h4>h4. Blockstack heading</h4></td>        
       </tr>
       <tr>
-        <td class="type-info text-values">weight 400 - 125rem / 18px</td>
-        <td><h5>h5. Bootstrap heading</h5></td>        
+        <td class="type-info text-values" style="padding-top: 21px;">125rem / 18px</td>
+        <td class="type-info text-values" style="padding-top: 21px; padding-left: 20px;">
+          <div style="position: absolute; border-left: 1px solid #D0011B; padding-top: 24px; padding-bottom: 24px; margin-left: -20px;"></div>
+          Source Code Pro <br />
+          <span class="text-values-mute">light 300 </span><br />
+          regular 400 <br />
+          <span class="text-values-mute">medium 500 </span><br />
+          <span class="text-values-mute">semi-bold 600 </span><br />
+          <span class="text-values-mute">bold 700 </span>
+        </td>
+        <td><h5>h5. Blockstack heading</h5></td>        
       </tr>
       <tr>
-        <td class="type-info text-values">weight 400 - .875rem / 14px</td>
-        <td><h6>h6. Bootstrap heading</h6></td>        
+        <td class="type-info text-values" style="padding-top: 17px;">.875rem / 14px</td>
+        <td class="type-info text-values" style="padding-top: 17px; padding-left: 20px;">
+          <div style="position: absolute; border-left: 1px solid #D0011B; padding-top: 24px; padding-bottom: 24px; margin-left: -20px;"></div>
+          Source Code Pro <br />
+          <span class="text-values-mute">light 300 </span><br />
+          regular 400 <br />
+          <span class="text-values-mute">medium 500 </span><br />
+          <span class="text-values-mute">semi-bold 600 </span><br />
+          <span class="text-values-mute">bold 700 </span>
+        </td>
+        <td><h6>h6. Blockstack heading</h6></td>        
       </tr>
     </tbody>
   </table>
 </div>
 
 {% highlight html %}
-<h1>h1. Bootstrap heading</h1>
-<h2>h2. Bootstrap heading</h2>
-<h3>h3. Bootstrap heading</h3>
-<h4>h4. Bootstrap heading</h4>
-<h5>h5. Bootstrap heading</h5>
-<h6>h6. Bootstrap heading</h6>
+<h1>h1. Blockstack heading</h1>
+<h2>h2. Blockstack heading</h2>
+<h3>h3. Blockstack heading</h3>
+<h4>h4. Blockstack heading</h4>
+<h5>h5. Blockstack heading</h5>
+<h6>h6. Blockstack heading</h6>
 {% endhighlight %}
 
 ## Headings - Inverse
@@ -374,43 +441,97 @@ All HTML headings, `<h1>` through `<h6>`, are available. `.h1` through `.h6` cla
 All HTML headings, `<h1>` through `<h6>`, are available. `.h1` through `.h6` classes are also available, for when you want to match the font styling of a heading but still want your text to be displayed inline.
 
 <div class="bd-example bd-example-type" style="background-color: #270F34;">
-  <table class="table">
+  <table class="table table-typography">
     <tbody>
       <tr>
-        <td class="type-info text-values">weight 300 - 2.25rem / 36px</td>
-        <td><h1 class="type-inverse">h1. Bootstrap heading</h1></td>
+        <td class="type-info text-values" style="padding-top: 39px;">2.25rem / 36px</td>
+        <td class="type-info text-values" style="padding-top: 39px; padding-left: 20px;">
+          <div style="position: absolute; border-left: 1px solid #D0011B; padding-top: 24px; padding-bottom: 24px; margin-left: -20px;"></div>
+          Source Code Pro <br />
+          <span class="text-values-mute">light 300 </span><br />
+          regular 400 <br />
+          <span class="text-values-mute">medium 500 </span><br />
+          <span class="text-values-mute">semi-bold 600 </span><br />
+          <span class="text-values-mute">bold 700 </span>
+        </td>
+        <td><h1 class="type-inverse">h1. Blockstack heading</h1></td>
       </tr>
       <tr>
-        <td class="type-info text-values">weight 300 - 1.875rem / 30px</td>
-        <td><h2 class="type-inverse">h2. Bootstrap heading</h2></td>
+        <td class="type-info text-values" style="padding-top: 33px;">1.875rem / 30px</td>
+        <td class="type-info text-values" style="padding-top: 33px; padding-left: 20px;">
+          <div style="position: absolute; border-left: 1px solid #D0011B; padding-top: 24px; padding-bottom: 24px; margin-left: -20px;"></div>
+          Source Code Pro <br />
+          <span class="text-values-mute">light 300 </span><br />
+          regular 400 <br />
+          <span class="text-values-mute">medium 500 </span><br />
+          <span class="text-values-mute">semi-bold 600 </span><br />
+          <span class="text-values-mute">bold 700 </span>
+        </td>
+        <td><h2 class="type-inverse">h2. Blockstack heading</h2></td>
       </tr>
       <tr>
-        <td class="type-info text-values">weight 300 - 1.625rem / 26px</td>
-        <td><h3 class="type-inverse">h3. Bootstrap heading</h3></td>
+        <td class="type-info text-values" style="padding-top: 29px;">1.625rem / 26px</td>
+        <td class="type-info text-values" style="padding-top: 29px; padding-left: 20px;">
+          <div style="position: absolute; border-left: 1px solid #D0011B; padding-top: 24px; padding-bottom: 24px; margin-left: -20px;"></div>
+          Source Code Pro <br />
+          <span class="text-values-mute">light 300 </span><br />
+          regular 400 <br />
+          <span class="text-values-mute">medium 500 </span><br />
+          <span class="text-values-mute">semi-bold 600 </span><br />
+          <span class="text-values-mute">bold 700 </span>
+        </td>
+        <td><h3 class="type-inverse">h3. Blockstack heading</h3></td>
       </tr>
       <tr>
-        <td class="type-info text-values">weight 300 - 1.375rem / 22px</td>
-        <td><h4 class="type-inverse">h4. Bootstrap heading</h4></td>
+        <td class="type-info text-values" style="padding-top: 25px;">1.375rem / 22px</td>
+        <td class="type-info text-values" style="padding-top: 25px; padding-left: 20px;">
+          <div style="position: absolute; border-left: 1px solid #D0011B; padding-top: 24px; padding-bottom: 24px; margin-left: -20px;"></div>
+          Source Code Pro <br />
+          <span class="text-values-mute">light 300 </span><br />
+          regular 400 <br />
+          <span class="text-values-mute">medium 500 </span><br />
+          <span class="text-values-mute">semi-bold 600 </span><br />
+          <span class="text-values-mute">bold 700 </span>
+        </td>
+        <td><h4 class="type-inverse">h4. Blockstack heading</h4></td>
       </tr>
       <tr>
-        <td class="type-info text-values">weight 300 - 125rem / 18px</td>
-        <td><h5 class="type-inverse">h5. Bootstrap heading</h5></td>
+        <td class="type-info text-values" style="padding-top: 21px;">125rem / 18px</td>
+        <td class="type-info text-values" style="padding-top: 21px; padding-left: 20px;">
+          <div style="position: absolute; border-left: 1px solid #D0011B; padding-top: 24px; padding-bottom: 24px; margin-left: -20px;"></div>
+          Source Code Pro <br />
+          <span class="text-values-mute">light 300 </span><br />
+          regular 400 <br />
+          <span class="text-values-mute">medium 500 </span><br />
+          <span class="text-values-mute">semi-bold 600 </span><br />
+          <span class="text-values-mute">bold 700 </span>
+        </td>
+        <td><h5 class="type-inverse">h5. Blockstack heading</h5></td>
       </tr>
       <tr>
-        <td class="type-info text-values">weight 300 - .875rem / 14px</td>
-        <td><h6 class="type-inverse">h6. Bootstrap heading</h6></td>
+        <td class="type-info text-values" style="padding-top: 17px;">.875rem / 14px</td>
+        <td class="type-info text-values" style="padding-top: 17px; padding-left: 20px;">
+          <div style="position: absolute; border-left: 1px solid #D0011B; padding-top: 24px; padding-bottom: 24px; margin-left: -20px;"></div>
+          Source Code Pro <br />
+          <span class="text-values-mute">light 300 </span><br />
+          regular 400 <br />
+          <span class="text-values-mute">medium 500 </span><br />
+          <span class="text-values-mute">semi-bold 600 </span><br />
+          <span class="text-values-mute">bold 700 </span>
+        </td>
+        <td><h6 class="type-inverse">h6. Blockstack heading</h6></td>
       </tr>
     </tbody>
   </table>
 </div>
 
 {% highlight html %}
-<h1>h1. Bootstrap heading</h1>
-<h2>h2. Bootstrap heading</h2>
-<h3>h3. Bootstrap heading</h3>
-<h4>h4. Bootstrap heading</h4>
-<h5>h5. Bootstrap heading</h5>
-<h6>h6. Bootstrap heading</h6>
+<h1>h1. Blockstack heading</h1>
+<h2>h2. Blockstack heading</h2>
+<h3>h3. Blockstack heading</h3>
+<h4>h4. Blockstack heading</h4>
+<h5>h5. Blockstack heading</h5>
+<h6>h6. Blockstack heading</h6>
 {% endhighlight %}
 
 ## Display headings
