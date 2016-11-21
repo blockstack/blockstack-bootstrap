@@ -10,8 +10,7 @@
     display: inline-block;
     width: 0;
     height: 0;
-    margin-right: .25rem;
-    margin-left: .25rem;
+    margin-left: $caret-width;
     vertical-align: middle;
     content: "";
     border-top: $caret-width solid;
@@ -42,9 +41,9 @@
   z-index: $zindex-dropdown;
   display: none; // none by default, but block on "open" of the menu
   float: left;
-  min-width: 160px;
-  padding: 5px 0;
-  margin: 2px 0 0; // override default ul
+  min-width: $dropdown-min-width;
+  padding: $dropdown-padding-y 0;
+  margin: $dropdown-margin-top 0 0; // override default ul
   font-size: $font-size-base;
   color: $body-color;
   text-align: left; // Ensures proper alignment if parent has it changed (e.g., modal footer)
@@ -67,9 +66,9 @@
 .dropdown-item {
   display: block;
   width: 100%; // For `<button>`s
-  padding: 3px 20px;
+  padding: 3px $dropdown-item-padding-x;
   clear: both;
-  font-weight: normal;
+  font-weight: $font-weight-normal;
   color: $dropdown-link-color;
   text-align: inherit; // For `<button>`s
   white-space: nowrap; // prevent links from randomly breaking onto new lines
@@ -112,7 +111,7 @@
 }
 
 // Open state for the dropdown
-.open {
+.active {
   // Show the menu
   > .dropdown-menu {
     display: block;
@@ -141,7 +140,8 @@
 // Dropdown section headers
 .dropdown-header {
   display: block;
-  padding: 5px 20px;
+  padding: $dropdown-padding-y $dropdown-item-padding-x;
+  margin-bottom: 0; // for use with heading elements
   font-size: $font-size-sm;
   color: $dropdown-header-color;
   white-space: nowrap; // as with > li > a
@@ -175,6 +175,6 @@
   .dropdown-menu {
     top: auto;
     bottom: 100%;
-    margin-bottom: 2px;
+    margin-bottom: $dropdown-margin-top;
   }
 }

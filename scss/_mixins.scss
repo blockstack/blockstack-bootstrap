@@ -2,23 +2,12 @@
 //
 // Used in conjunction with global variables to enable certain theme features.
 
-@mixin box-shadow($shadow...) {
-  @if $enable-shadows {
-    box-shadow: $shadow;
-  }
-}
-
-@mixin transition($transition...) {
-  @if $enable-transitions {
-    transition: $transition;
-  }
-}
-
 // Utilities
+@import "mixins/box-shadow";
 @import "mixins/breakpoints";
 @import "mixins/hover";
 @import "mixins/image";
-@import "mixins/label";
+@import "mixins/badge";
 @import "mixins/reset-filter";
 @import "mixins/resize";
 @import "mixins/screen-reader";
@@ -28,6 +17,7 @@
 @import "mixins/text-emphasis";
 @import "mixins/text-hide";
 @import "mixins/text-truncate";
+@import "mixins/visibility";
 
 // // Components
 @import "mixins/alert";
@@ -51,7 +41,7 @@
 // @import "mixins/navbar-align";
 @import "mixins/grid-framework";
 @import "mixins/grid";
-@import "mixins/pulls";
 
 // // Custom
 @import "mixins/custom-mixins";    // Custom
+@import "mixins/float";

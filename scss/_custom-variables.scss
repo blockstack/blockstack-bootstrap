@@ -41,7 +41,7 @@ $midnight-200:              #323234 !default;
 $midnight-300:              #2a2a2b !default;
 $midnight-400:              #212123 !default;
 $midnight-500:              #19191a !default;
-$midnight-600:              #111111 !default;
+$midnight-600:              #111 !default;
 $midnight-700:              #080809 !default;
 
 $deep-slate-50:             #494f56 !default;
@@ -126,10 +126,10 @@ $gray-light:                #818a91 !default;
 $gray-lighter:              #eceeef !default;
 $gray-lightest:             #f7f7f9 !default;
 
-$brand-primary:             #270F34 !default;
+$brand-primary:             #270f34 !default;
 $brand-success:             #1db954 !default;
 $brand-info:                #4a90e2 !default;
-$brand-warning:             #ff9900 !default;
+$brand-warning:             #f90 !default;
 $brand-danger:              #d0021b !default;
 
 // Gradient colors
@@ -304,10 +304,10 @@ $display3-weight: 300 !default;
 $display4-weight: 300 !default;
 
 $headings-margin-bottom:           ($spacer * 2) !default;             // Custom value string - ($spacer / 2) !default
-$headings-font-family:             $font-family-sans-serif !default;   // Custom value 
+$headings-font-family:             $font-family-sans-serif !default;   // Custom value
 $headings-font-weight:             400 !default;                       // Custom value
 $headings-line-height:             1.35 !default;                      // Custom value
-$headings-color:                   inherit !default;                  
+$headings-color:                   inherit !default;
 
 $headings-inverse-margin-bottom:   ($spacer * 2) !default;             // Custom
 $headings-inverse-font-family:     $font-family-monospace !default;    // Custom
