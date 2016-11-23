@@ -136,10 +136,10 @@ $gray-lighter:              #eceeef !default;
 $gray-lightest:             #f7f7f9 !default;
 
 $brand-primary:             #270f34 !default;
-$brand-success:             #1db954 !default;
-$brand-info:                #4a90e2 !default;
-$brand-warning:             #f90 !default;
-$brand-danger:              #d0021b !default;
+$brand-success:             #4caf50 !default;
+$brand-info:                #03a9f4 !default;
+$brand-warning:             #ffc107 !default;
+$brand-danger:              #f44336 !default;
 
 // Gradient colors
 //
@@ -158,7 +158,7 @@ $grad-ninth-color:               $brand-primary !default;
 //
 // Quickly modify global styling by enabling or disabling optional features.
 
-$enable-flex:               false !default;
+$enable-flex:               true !default;
 $enable-rounded:            true !default;
 $enable-shadows:            false !default;
 $enable-gradients:          false !default;

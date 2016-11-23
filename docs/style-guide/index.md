@@ -21,7 +21,7 @@ group: style-guide
     border: none;
   }
   .bd-example {
-    padding: 45px;
+    padding: 25px;
   }
   .bd-pageheader {
     background-color: #270F34;
