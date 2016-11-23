@@ -55,7 +55,108 @@ $deep-slate-700:            #121416 !default;
 $deep-slate-800:            #0b0c0c !default;
 $deep-slate-900:            #030303 !default;
 
-$dark-violet-50:            #8e37be !default;
+$purple-5:                  #F4F2F4 !default;
+$purple-10:                 #EAE7EB !default;
+$purple-15:                 #DFDBE1 !default;
+$purple-20:                 #D4CFD7 !default;
+$purple-25:                 #CAC3CD !default;
+$purple-30:                 #C0B8C4 !default;
+$purple-35:                 #B5ABBA !default;
+$purple-40:                 #AA9FB0 !default;
+$purple-45:                 #9F93A6 !default;
+$purple-50:                 #95889C !default;  // 50 + logos + type
+$purple-55:                 #8B7C92 !default;
+$purple-60:                 #807088 !default;
+$purple-65:                 #75647E !default;
+$purple-70:                 #6B5875 !default;
+$purple-75:                 #604C6B !default;  // 75 + bug
+$purple-80:                 #564061 !default;
+$purple-85:                 #4B3457 !default;  // 85 + bug + lines
+$purple-90:                 #41294E !default;  // 90 + bug + dots
+$purple-95:                 #361D44 !default;
+$purple-100:                #2C113A !default;
+$purple-105:                #291037 !default;
+$purple-110:                #270F34 !default;
+$purple-110:                #270F34 !default;  // 110 + background
+$purple-120:                #230D2E !default;
+$purple-125:                #200C2B !default;
+$purple-130:                #1E0B28 !default;
+$purple-135:                #1C0B25 !default;
+$purple-140:                #1A0A22 !default;
+$purple-145:                #18091F !default;
+$purple-150:                #15081C !default;
+
+$gray-50:                   #fafafa !default;
+$gray-75:                   #f0f0f0 !default;
+$gray-85:                   #e6e6e6 !default;
+$gray-100:                  #e1e1e1 !default;
+$gray-200:                  #c7c7c7 !default;
+$gray-300:                  #aeaeae !default;
+$gray-400:                  #949494 !default;
+$gray-500:                  #7b7b7b !default;
+$gray-600:                  #616161 !default;
+$gray-700:                  #484848 !default;
+$gray-800:                  #2e2e2e !default;
+$gray-850:                  #222222 !default;
+$gray-900:                  #1C1C1C !default;
+$gray-950:                  #151515 !default;
+
+$red:                       #F44336 !default;
+$magenta:                   #E91E63 !default;  // magenta + highlight
+$plum:                      #9C27B0 !default;
+$deep-purple:               #673AB7 !default;
+$indigo:                    #3F51B5 !default;
+$blue:                      #2C96FF !default;  // blue + highlight
+$light-blue:                #03A9F4 !default;
+$cyan:                      #00BCD4 !default;
+$teal:                      #009688 !default;
+$green:                     #4CAF50 !default;
+$lIght-green:               #8BC34A !default;
+$llme:                      #CDDC39 !default;
+$yellow:                    #FFEB3B !default;
+$amber:                     #FFC107 !default;
+$orange:                    #FF9800 !default;
+$deep-orange:               #FF5722 !default;
+$brown:                     #795548 !default;
+$grey:                      #9E9E9E !default;
+$blue-grey:                 #607D8B !default;
+
+$black:                     #000 !default;
+$white:                     #fff !default;
+$transparent:               transparent !default;
+
+// Colors
+//
+// Grayscale and brand colors for use across Bootstrap.
+
+$gray-dark:                 #373a3c !default;
+$gray:                      #55595c !default;
+$gray-light:                #818a91 !default;
+$gray-lighter:              #eceeef !default;
+$gray-lightest:             #f7f7f9 !default;
+
+$brand-primary:             #270f34 !default;
+$brand-success:             #1db954 !default;
+$brand-info:                #4a90e2 !default;
+$brand-warning:             #f90 !default;
+$brand-danger:              #d0021b !default;
+
+// Gradient colors
+//
+
+$grad-first-color:               $black !default;
+$grad-second-color:              #040007 !default;
+$grad-third-color:               #180d1f !default;
+$grad-fourth-color:              #24132f !default;
+$grad-fifth-color:               #361648 !default;
+$grad-sixth-color:               #3c174f !default;
+$grad-seventh-color:             #48195d !default;
+$grad-eighth-color:              $brand-primary !default;
+$grad-ninth-color:               $brand-primary !default;
+
+// Deprecated colors
+//
+
 $dark-violet-100:           #8433b1 !default;
 $dark-violet-200:           #7a2fa4 !default;
 $dark-violet-300:           #672889 !default;
@@ -98,52 +199,6 @@ $light-violet-600:          #ab41bd !default;
 $light-violet-700:          #a03cb1 !default;
 $light-violet-800:          #9438a4 !default;
 $light-violet-900:          #893497 !default;
-
-$gray-50:                   #fafafa !default;
-$gray-60:                   #f0f0f0 !default;
-$gray-70:                   #e6e6e6 !default;
-$gray-100:                  #e1e1e1 !default;
-$gray-200:                  #c7c7c7 !default;
-$gray-300:                  #aeaeae !default;
-$gray-400:                  #949494 !default;
-$gray-500:                  #7b7b7b !default;
-$gray-600:                  #616161 !default;
-$gray-700:                  #484848 !default;
-$gray-800:                  #2e2e2e !default;
-$gray-900:                  #151515 !default;
-
-$black:                     #000 !default;
-$white:                     #fff !default;
-$transparent:               transparent !default;
-
-// Colors
-//
-// Grayscale and brand colors for use across Bootstrap.
-
-$gray-dark:                 #373a3c !default;
-$gray:                      #55595c !default;
-$gray-light:                #818a91 !default;
-$gray-lighter:              #eceeef !default;
-$gray-lightest:             #f7f7f9 !default;
-
-$brand-primary:             #270f34 !default;
-$brand-success:             #1db954 !default;
-$brand-info:                #4a90e2 !default;
-$brand-warning:             #f90 !default;
-$brand-danger:              #d0021b !default;
-
-// Gradient colors
-//
-
-$grad-first-color:               $black !default;
-$grad-second-color:              #040007 !default;
-$grad-third-color:               #180d1f !default;
-$grad-fourth-color:              #24132f !default;
-$grad-fifth-color:               #361648 !default;
-$grad-sixth-color:               #3c174f !default;
-$grad-seventh-color:             #48195d !default;
-$grad-eighth-color:              $brand-primary !default;
-$grad-ninth-color:               $brand-primary !default;
 
 // Options
 //
@@ -395,7 +450,7 @@ $btn-primary-border:             $btn-primary-bg !default;
 
 $btn-secondary-color:            $brand-primary !default;  // Custom value - was $gray-dark
 $btn-secondary-bg:               #fff !default;
-$btn-secondary-border:           $gray-60 !default;        // Custom value - was #ccc
+$btn-secondary-border:           $gray-75 !default;        // Custom value - was #ccc
 
 $btn-info-color:                 #fff !default;
 $btn-info-bg:                    $brand-info !default;
