@@ -4570,18 +4570,11 @@ tbody.collapse.active {
   margin-bottom: 0.75rem;
   background-color: #fff;
   border-radius: 0.25rem;
-  -webkit-box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.125);
-          box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.125);
+  border: 1px solid rgba(0, 0, 0, 0.125);
 }
 
 .card-block {
   padding: 1.25rem;
-}
-
-.card-block::after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 .card-title {
@@ -4606,8 +4599,8 @@ tbody.collapse.active {
 }
 
 .card > .list-group:first-child .list-group-item:first-child {
-  border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
+  border-top-left-radius: 0.25rem;
 }
 
 .card > .list-group:last-child .list-group-item:last-child {
@@ -4617,15 +4610,9 @@ tbody.collapse.active {
 
 .card-header {
   padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
   background-color: #f5f5f5;
-  -webkit-box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.125);
-          box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.125);
-}
-
-.card-header::after {
-  content: "";
-  display: table;
-  clear: both;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 
 .card-header:first-child {
@@ -4635,14 +4622,7 @@ tbody.collapse.active {
 .card-footer {
   padding: 0.75rem 1.25rem;
   background-color: #f5f5f5;
-  -webkit-box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.125);
-          box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.125);
-}
-
-.card-footer::after {
-  content: "";
-  display: table;
-  clear: both;
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
 
 .card-footer:last-child {
@@ -4654,10 +4634,6 @@ tbody.collapse.active {
   margin-bottom: -0.75rem;
   margin-left: -0.625rem;
   border-bottom: 0;
-}
-
-.card-header-tabs .nav-item {
-  margin-bottom: 0;
 }
 
 .card-header-pills {
@@ -4775,7 +4751,7 @@ tbody.collapse.active {
 }
 
 .card-img {
-  border-radius: 0.25rem;
+  border-radius: calc(0.25rem - 1px);
 }
 
 .card-img-overlay {
@@ -4788,11 +4764,13 @@ tbody.collapse.active {
 }
 
 .card-img-top {
-  border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+  border-top-right-radius: calc(0.25rem - 1px);
+  border-top-left-radius: calc(0.25rem - 1px);
 }
 
 .card-img-bottom {
-  border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
+  border-bottom-right-radius: calc(0.25rem - 1px);
+  border-bottom-left-radius: calc(0.25rem - 1px);
 }
 
 @media (min-width: 576px) {
@@ -4805,6 +4783,7 @@ tbody.collapse.active {
         -ms-flex-flow: row wrap;
             flex-flow: row wrap;
     margin-right: -0.625rem;
+    margin-bottom: 0.75rem;
     margin-left: -0.625rem;
   }
   .card-deck .card {
@@ -4813,6 +4792,7 @@ tbody.collapse.active {
         -ms-flex: 1 0 0%;
             flex: 1 0 0%;
     margin-right: 0.625rem;
+    margin-bottom: 0;
     margin-left: 0.625rem;
   }
 }
