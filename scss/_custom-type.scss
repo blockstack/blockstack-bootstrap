@@ -68,14 +68,14 @@ hr {
 
 small,
 .small {
-  font-size: 80%;
-  font-weight: normal;
+  font-size: $small-font-size;
+  font-weight: $font-weight-normal;
 }
 
 mark,
 .mark {
-  padding: .2em;
-  background-color: $state-warning-bg;
+  padding: $mark-padding;
+  background-color: $mark-bg;
 }
 
 
