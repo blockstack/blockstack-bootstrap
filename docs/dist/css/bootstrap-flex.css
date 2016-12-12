@@ -2189,13 +2189,6 @@ pre code {
   background-color: #ebcccc;
 }
 
-.table-responsive {
-  display: block;
-  width: 100%;
-  min-height: .01%;
-  overflow-x: auto;
-}
-
 .thead-inverse th {
   color: #fff;
   background-color: #373a3c;
@@ -2207,13 +2200,8 @@ pre code {
 }
 
 .table-inverse {
-  color: #eceeef;
+  color: #fff;
   background-color: #1a1d1f;
-}
-
-.table-inverse.table-bordered {
-  border: 0;
-  border-color: #32363a;
 }
 
 .table-inverse th,
@@ -2221,6 +2209,17 @@ pre code {
 .table-inverse thead th {
   font-size: .9375rem;
   border-color: #32363a;
+}
+
+.table-inverse.table-bordered {
+  border: 0;
+}
+
+.table-responsive {
+  display: block;
+  width: 100%;
+  min-height: 0%;
+  overflow-x: auto;
 }
 
 .table-reflow thead {

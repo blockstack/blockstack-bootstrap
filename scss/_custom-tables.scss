@@ -99,6 +99,42 @@
 @include table-row-variant(danger, $state-danger-bg);
 
 
+// Inverse styles
+//
+// Same table markup, but inverted color scheme: dark background and light text.
+
+.thead-inverse {
+  th {
+    color: #fff;
+    background-color: $table-bg-inverse;
+  }
+}
+
+.thead-default {
+  th {
+    color: $table-head-color;
+    background-color: $table-head-bg;
+  }
+}
+
+.table-inverse {
+  color: $body-bg;
+  background-color: $deep-slate-600;     // Custom value - was $gray-dark
+
+  th,
+  td,
+  thead th {
+    font-size: .9375rem;                // Custom
+    border-color: $deep-slate-300;      //Custom value - was $body-bg;
+  }
+
+  &.table-bordered {
+    border: 0;
+  }
+}
+
+
+
 // Responsive tables
 //
 // Wrap your tables in `.table-responsive` and we'll make them mobile friendly
@@ -108,44 +144,13 @@
 .table-responsive {
   display: block;
   width: 100%;
-  min-height: .01%; // Workaround for IE9 bug (see https://github.com/twbs/bootstrap/issues/14837)
+  min-height: 0%; // Workaround for IE9 bug (see https://github.com/twbs/bootstrap/issues/14837)
   overflow-x: auto;
 
   // TODO: find out if we need this still.
   //
   // border: $table-border-width solid $table-border-color;
   // -ms-overflow-style: -ms-autohiding-scrollbar; // See https://github.com/twbs/bootstrap/pull/10057
-}
-
-
-.thead-inverse {
-  th {
-    color: #fff;
-    background-color: $gray-dark;
-  }
-}
-.thead-default {
-  th {
-    color: $gray;
-    background-color: $gray-lighter;
-  }
-}
-
-.table-inverse {
-  color: $gray-lighter;
-  background-color: $deep-slate-600;     // Custom value - was $gray-dark
-
-  &.table-bordered {
-    border: 0;
-    border-color: $deep-slate-300;      //Custom
-  }
-
-  th,
-  td,
-  thead th {
-    font-size: .9375rem;                // Custom
-    border-color: $deep-slate-300;      //Custom value - was $gray
-  }
 }
 
 
@@ -180,7 +185,6 @@
     }
   }
 
-  // scss-lint:disable ImportantRule
   tr {
     float: left;
 
@@ -190,5 +194,4 @@
       border: $table-border-width solid $table-border-color;
     }
   }
-  // scss-lint:enable ImportantRule
 }
