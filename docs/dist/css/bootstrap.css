@@ -6091,11 +6091,6 @@ button.close {
   }
 }
 
-.bg-inverse {
-  color: #eceeef;
-  background-color: #373a3c;
-}
-
 .bg-faded {
   background-color: #f7f7f9;
 }
@@ -6146,6 +6141,14 @@ a.bg-warning:focus, a.bg-warning:hover {
 
 a.bg-danger:focus, a.bg-danger:hover {
   background-color: #ea1c0d !important;
+}
+
+.bg-inverse {
+  background-color: #373a3c !important;
+}
+
+a.bg-inverse:focus, a.bg-inverse:hover {
+  background-color: #1f2021 !important;
 }
 
 .align-baseline {
