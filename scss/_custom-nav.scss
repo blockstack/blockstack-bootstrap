@@ -14,7 +14,7 @@
 
   @include hover-focus {
     text-decoration: none;
-    transition: $transitions-primary;
+    transition: $transitions-secondary;
   }
 
   // Disabled state lightens text and removes hover/tab effects
@@ -66,7 +66,7 @@
     display: block;
     padding: $nav-link-padding;
     border: $nav-tabs-border-width solid transparent;
-    @include border-radius($border-radius $border-radius 0 0);
+    @include border-top-radius($nav-tabs-border-radius);
 
     @include hover-focus {
       border-color: $nav-tabs-link-hover-border-color $nav-tabs-link-hover-border-color $nav-tabs-border-color;

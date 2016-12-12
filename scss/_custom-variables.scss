@@ -444,11 +444,13 @@ $component-active-bg:    $brand-primary !default;
 $caret-width:            .3em !default;
 $caret-width-lg:         $caret-width !default;
 
-// 11. Transitions
-//
-//
 
-$transitions-primary:      all .2s ease-in-out !default;
+// --. Transitions
+//
+// Allows for quick customization of transitions.
+
+$transitions-primary:        opacity .15s linear !default;
+$transitions-secondary:      all .2s ease-in-out !default;
 
 
 // 11. Tables
