@@ -1,6 +1,6 @@
 .fade {
   opacity: 0;
-  transition: opacity .15s linear;
+  transition: all .2s ease-in-out;
 
   &.active {
     opacity: 1;

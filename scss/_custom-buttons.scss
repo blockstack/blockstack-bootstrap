@@ -1,5 +1,3 @@
-// Custom
-
 // scss-lint:disable QualifyingElement
 
 //
@@ -16,7 +14,7 @@
   cursor: pointer;
   user-select: none;
   border: $input-btn-border-width solid transparent;
-  @include button-size($btn-padding-y, $btn-padding-x, $font-size-xxs, $btn-border-radius);  // Custom - font-size-xxs
+  @include button-size($btn-padding-y, $btn-padding-x, $font-size-sm, $btn-border-radius);  // Custom - font-size-xxs
   @include transition(all .2s ease-in-out);
 
   &,
@@ -79,17 +77,13 @@ fieldset[disabled] a.btn {
 .btn-danger {
   @include button-variant($btn-danger-color, $btn-danger-bg, $btn-danger-border);
 }
-// Custom button
-.btn-special {
-  @include button-variant($btn-special-color, $btn-special-bg, $btn-special-border);
-}
 
 // Remove all backgrounds
 .btn-outline-primary {
   @include button-outline-variant($btn-primary-bg);
 }
 .btn-outline-secondary {
-  @include button-outline-variant($btn-secondary-bg);  // Custom value - was $btn-secondary-border
+  @include button-outline-variant($btn-secondary-border);
 }
 .btn-outline-info {
   @include button-outline-variant($btn-info-bg);
@@ -115,7 +109,7 @@ fieldset[disabled] a.btn {
 
 // Make a button look and behave like a link
 .btn-link {
-  font-weight: normal;
+  font-weight: $font-weight-normal;
   color: $link-color;
   border-radius: 0;
 
@@ -155,7 +149,7 @@ fieldset[disabled] a.btn {
 .btn-lg {
   // line-height: ensure even-numbered height of button next to large input
   // Custom - $font-size was $font-size-lg
-  @include button-size($btn-padding-y-lg, $btn-padding-x-lg, $font-size-base, $btn-border-radius-lg);
+  @include button-size($btn-padding-y-lg, $btn-padding-x-lg, $font-size-sm, $btn-border-radius-lg);
 }
 .btn-sm {
   // line-height: ensure proper height of button next to small input

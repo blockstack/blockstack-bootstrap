@@ -444,6 +444,12 @@ $component-active-bg:    $brand-primary !default;
 $caret-width:            .3em !default;
 $caret-width-lg:         $caret-width !default;
 
+// 11. Transitions
+//
+//
+
+$transitions-primary:      all .2s ease-in-out !default;
+
 
 // 11. Tables
 //
@@ -483,7 +489,7 @@ $btn-primary-border:             $btn-primary-bg !default;
 
 $btn-secondary-color:            $brand-primary !default;  // Custom value - was $gray-dark
 $btn-secondary-bg:               #fff !default;
-$btn-secondary-border:           $gray-75 !default;        // Custom value - was #ccc
+$btn-secondary-border:           $white !default;          // Custom value - was #ccc
 
 $btn-info-color:                 #fff !default;
 $btn-info-bg:                    $brand-info !default;
